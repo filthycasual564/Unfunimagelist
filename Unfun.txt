@@ -5250,7 +5250,7 @@
 	        }
 	    }
 	]
-	[CommonSlot(250)]
+	[CommonSlot(20)]
 		50 Big Boi
 		50 Creature Druid
 		50 Lil Guy
