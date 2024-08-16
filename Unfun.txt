@@ -4414,7 +4414,7 @@
 	        "mana_cost": "{3}{W}",
 	        "type": "Artifact Creature — Equipment Advisor ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/filthycasual564/Unfunimagelist/main/Unfun-files/A.I. Assistant.jpg"
+	            "en": "https://raw.githubusercontent.com/filthycasual564/Unfunimagelist/main/Unfun-files/AI Assistant.jpg"
 	        },
 	        "printed names": {
 	            "en": "A.I. Assistant"
