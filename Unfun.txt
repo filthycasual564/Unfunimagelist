@@ -5250,8 +5250,6 @@
 	        }
 	    }
 	]
-	[RareSlot(0)]
-	[UncommonSlot(0)]
 	[CommonSlot(20)]
 		50 Big Boi
 		50 Creature Druid
@@ -5503,5 +5501,4 @@
 		50 Dog Pile
 		50 Florida Man
 		50 Calamity Cat
-	[BasicSlot(0)]
 	
