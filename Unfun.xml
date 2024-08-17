@@ -7133,8 +7133,8 @@ This creature enters with a number of +1/+1 counters on it equal to your wind sc
 (Front): Engagement</text>
     </card>
     <card>
-      <name>Big Ramp Spell</name>
-      <set rarity="common" splitterPath="/Big Ramp Spell.jpg" >SHIT</set>
+      <name>Ramp Spell</name>
+      <set rarity="common" splitterPath="/Ramp Spell.jpg" >SHIT</set>
       <prop>
         <colors>G</colors>
         <manacost>3GG</manacost>
@@ -7162,7 +7162,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
       <tablerow>0</tablerow>
       <text>{T}: Add {G}
 ---
-(Front): Big Ramp Spell</text>
+(Front): Ramp Spell</text>
     </card>
     <card>
       <name>Unfinished Business</name>
