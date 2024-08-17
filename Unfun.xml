@@ -935,7 +935,7 @@ Dash {U} (You may cast this spell for its dash cost. If you do, it gains haste, 
       </prop>
       <tablerow>3</tablerow>
       <text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Counter target spell. If you do and this spell was kicked, exile it instead of putting it into its owner’s graveyard and conjure a card that is a duplicate of spell into your hand. (Reveal it from outside the game.)
+Counter target spell. If you do and this spell was kicked, exile it instead of putting it into its owner’s graveyard and conjure a card that is a duplicate of that spell into your hand. (Reveal it from outside the game.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -1343,7 +1343,7 @@ Dash 1GG
       <text>Until end of turn target creature gets “When this creature dies, return it to the battlefield under its owner’s control and Hoard.”
 Fleshify 2BB
 Indestructible
-When this creature attacks, the defending player may untap it and remove it from combat. If they do, surveil 2 and Hoard.
+When this creature attacks, the defending player may untap it and remove it from combat. If they do, surveil 2 and hoard.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -1980,7 +1980,7 @@ Fleshify {W} (Put this card onto the battlefield from your graveyard as a creatu
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Put a +1/+1 counter on target creature you control with power 3 or less. Then that creature fights up to one target creature you don’t control.
+      <text>Put a number of +1/+1 counters on target creature you control with power 3 or less equal to the difference between three and its power. Then that creature fights up to one target creature you don’t control.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -2044,7 +2044,7 @@ Fleshify {W} (Put this card onto the battlefield from your graveyard as a creatu
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-When this creature becomes blocked by a creature with power five or greater, this creature gains first strike until end of turn.
+When this creature attacks, if the defending player is playing Timmy magic, this creature gains first strike until end of turn. (They are playing Timmy magic if they control a creature with power 5 or greater.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -3349,7 +3349,7 @@ When this battle is defeated, exile it, then return it to the battlefield under 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature you control fights target creature an opponent controls. Cast this spell without paying its mana cost. (This isn’t optional. It resolves back onto the stack if it has legal targets. Choose targets as part of this spell’s resolution.)
+      <text>Target creature you control fights target creature an opponent controls. Cast this spell without paying its mana cost. You can’t target the same two creatures this way more than once. (This isn’t optional. It resolves back onto the stack if it has legal targets. Choose targets as part of this spell’s resolution.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -6199,9 +6199,9 @@ Whenever you sacrifice an artifact, you may have this creature deal damage equal
         <pt>0/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Evoke 2B, pay 2 life. (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters the battlefield.)
+      <text>When this creature enters, create a 1/1 colorless Servo artifact creature token.
+Evoke 2B, pay 2 life. (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters the battlefield.)
 You may evoke this spell from your graveyard.
-When this creature enters, create a 1/1 colorless Servo artifact creature token.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -6295,7 +6295,7 @@ Evoke 1B
       </prop>
       <tablerow>1</tablerow>
       <text>Flash
-When Stasis Ward enters, each tapped nonland permanent phases out. They can’t phase in for as long as you control Stasis Ward. (Treat it and anything attached to it as though they don’t exist until its controller’s next turn.)
+When this artifact enters, each tapped nonland permanent phases out. They can’t phase in for as long as you control this artifact. (Treat it and anything attached to it as though they don’t exist until its controller’s next turn.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -7639,8 +7639,8 @@ Creatures you control get +1/+0 and have “When this creature dies, each oppone
 (Front): Spiteful Gremlin</text>
     </card>
     <card>
-      <name>Dino Paleontologist </name>
-      <set rarity="common" splitterPath="/Dino Paleontologist .jpg" >SHIT</set>
+      <name>Dino Paleontologist</name>
+      <set rarity="common" splitterPath="/Dino Paleontologist.jpg" >SHIT</set>
       <prop>
         <colors>G</colors>
         <manacost>4G</manacost>
@@ -7669,7 +7669,7 @@ When this card is put into your graveyard from anywhere, you may pay GG and exil
       <tablerow>0</tablerow>
       <text>{T}: Add {G}
 ---
-(Front): Dino Paleontologist </text>
+(Front): Dino Paleontologist</text>
     </card>
     <card>
       <name>Trash Taker</name>
