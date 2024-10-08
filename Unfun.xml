@@ -355,7 +355,7 @@ When you fleshify this card, create a 1/1 white Dog creature token for each card
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>If you attacked with three or more creatures this turn, target player creates two 1/1 white Dog creature tokens. If you drew two or more cards this turn, return up to one target permanent to its owner’s hand. If you descended this turn, each opponent loses 3 life and you gain 3 life. If an opponent has been dealt damage this turn, this spell deals 3 damage to any target. If you are playing Timmy magic, target player creates a */3 green Dinosaur creature token with trample and “This creature’s power is equal to the greatest power among nontoken creatures you control.”
+      <text>If you attacked with three or more creatures this turn, target player creates two 1/1 white Dog creature tokens. If you drew two or more cards this turn, return up to one target permanent to its owner’s hand. If you descended this turn, each opponent loses 3 life and you gain 3 life. If an opponent has been dealt damage this turn, this spell deals 3 damage to any target. If you are playing Timmy magic, target player creates a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.”
 ---
 (Back): Magical Christmas Land</text>
       <related attach="transform">Magical Christmas Land</related>
@@ -595,7 +595,7 @@ When this creature dies, return it to the battlefield as a land.
       </prop>
       <tablerow>2</tablerow>
       <text>Haste
-When this creature attacks, if you are playing Timmy magic, create a */3 green Dinosaur creature token with trample and “This creature’s power is equal to the greatest power among nontoken creatures you control.” It enters tapped and attacking. (You are playing Timmy magic if you control a creature with power 5 or greater.)
+When this creature attacks, if you are playing Timmy magic, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.” (You are playing Timmy magic if you control a creature with power 5 or greater.)
 ---
 (Back): Stompy Ground</text>
       <related attach="transform">Stompy Ground</related>
@@ -1709,7 +1709,7 @@ Flashback XBBB  (You may cast this card from your graveyard for its flashback co
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Create a */3 green Dinosaur creature token with trample and “This creature’s power is equal to the greatest power among nontoken creatures you control.” 
+      <text>Create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.”
 Fleshify 5G (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 ---
 (Back): Forest</text>
@@ -3485,7 +3485,7 @@ When this battle is defeated, exile it, then return it to the battlefield under 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact, enchantment, or battle. If you controlled it, create a */3 green Dinosaur creature token with trample and “This creature’s power is equal to the greatest power among nontoken creatures you control.”
+      <text>Destroy target artifact, enchantment, or battle. If you controlled it, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.”
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -5433,11 +5433,11 @@ At the beginning of your upkeep, look at the top card of your library. If it’s
         <cmc>8</cmc>
         <type>Legendary Creature  - Dinosaur Mount </type>
         <maintype>Creature</maintype>
-        <pt>7/7</pt>
+        <pt>6/7</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature becomes saddled, it gains all abilities of each creature that saddled it until end of turn.
-Saddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
+      <text>As long as this creature is saddled, it has haste, trample, and “when this creature attacks, you may search your library for a creature card, put it onto battlefield tapped and attacking, then shuffle.”
+Saddle 5 (Tap any number of other creatures you control with total power 5 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
 ---
 (Back): Pangaea</text>
       <related attach="transform">Pangaea</related>
@@ -5471,7 +5471,7 @@ Saddle 2 (Tap any number of other creatures you control with total power 2 or mo
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on Corpse Flower.
+At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -6458,9 +6458,9 @@ You may evoke this spell from your graveyard.
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, target opponent reveals their hand. You may exile a card from it. If you do, that player draws a card and you conjure a duplicate of the exiled card into your hand.
+      <text>Evoke 1B (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)
+When this creature enters, target opponent reveals their hand. You may exile a card from it. If you do, that player draws a card and you conjure a duplicate of the exiled card into your hand.
 This creature has flying as long as you’ve committed a crime this turn.  (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)
-Evoke 1B
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -7891,7 +7891,7 @@ Creatures you control get +1/+0 and have “When this creature dies, each oppone
       <tablerow>2</tablerow>
       <text>Reach
 Cycling {2} ({2}, Discard this card: Draw a card.)
-When this card is put into your graveyard from anywhere, you may pay GG and exile it. When you do, create a */3 green Dinosaur creature token with trample and “This creature’s power is equal to the greatest power among nontoken creatures you control.” 
+When this card is put into your graveyard from anywhere, you may pay GG and exile it. When you do, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.”
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
