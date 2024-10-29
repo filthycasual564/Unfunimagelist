@@ -662,7 +662,7 @@ Whenever you copy a noncreature spell, create a tapped 1/1 colorless Servo artif
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature you control gains +3/+0, haste, flying, and “When this creature dies, draw a card” until end of turn. At the beginning of the next end step, sacrifice that creature.
+      <text>Target creature you control gets +3/+0 and has haste, flying, and “When this creature dies, draw a card” until end of turn. At the beginning of the next end step, sacrifice that creature.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -963,7 +963,7 @@ Dash {U} (You may cast this spell for its dash cost. If you do, it gains haste, 
       </prop>
       <tablerow>3</tablerow>
       <text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Counter target spell. If you do and this spell was kicked, exile it instead of putting it into its owner’s graveyard and conjure a card that is a duplicate of that spell into your hand.
+Counter target spell. If you do and this spell was kicked, exile the countered spell instead of putting it into its owner’s graveyard and conjure a card that is a duplicate of that spell into your hand.
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -1350,7 +1350,7 @@ Dash 1GG
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>This spell deals 3 damage to each of up to X targets, where X is your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
+      <text>When this spell resolves, it deals 3 damage to each of up to X targets, where X is your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -1842,7 +1842,7 @@ When this creature enters, target creature you control gets +2/+1 and has haste 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Tap or untap up to X target permanents, where X is your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
+      <text>Untap up to X permanents, where X is your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -2010,7 +2010,7 @@ When this creature attacks, you may cast a copy of it without paying its mana co
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Look at target opponent’s hand. Exile a card from it. For as long as that card remains exiled, its owner may cast it. A spell cast this way costs {2} more to cast. If you don’t exile a card with mana value 3 or greater this way, you may put this spell onto the battlefield as a creature with a finality counter on it.
+      <text>Look at target opponent’s hand. You may exile a card from it. For as long as that card remains exiled, its owner may cast it. A spell cast this way costs {2} more to cast. If you don’t exile a card with mana value 3 or greater this way, you may put this spell onto the battlefield as a creature with a finality counter on it.
 Fleshify {W} (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 ---
 (Back): Plains</text>
@@ -3743,7 +3743,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
       </prop>
       <tablerow>2</tablerow>
       <text>Lifelink
-As long as you have no cards in your hand, you may play lands and cast spells from your graveyard. Each spell you cast this way costs an additional X life to cast, where X is its mana value.
+As long as you have no cards in your hand, you may play lands and cast spells from your graveyard. Each spell you cast this way costs an additional 1 life to cast.
 If a card would be put into your hand or graveyard from anywhere, exile it instead.
 ---
 (Back): Swamp</text>
@@ -4917,7 +4917,7 @@ Draw four cards, then discard two cards. Hoard. (Create a Treasure artifact toke
       <tablerow>1</tablerow>
       <text>{T}, Discard a card: Draw two cards. Each opponent draws a card.
 {T}, Discard two cards: Untap two other target permanents.
-{T}, Discard three cards: Target noncreature artifact loses all abilities and becomes a Food with “{2}, {T}, Sacrifice this artifact: You gain 3 life.”
+{T}, Discard three cards: Cook, hoard, and prepare.
 {T}, Discard four cards: Transform this artifact and another target permanent.
 {3}: Untap this artifact.
 ---
@@ -5227,7 +5227,7 @@ Add WWWBBB. Until end of turn, creature cards in your graveyard have “You may 
       </prop>
       <tablerow>3</tablerow>
       <text>Choose X times, where X is your wind scale. You may choose the same mode more than once;
-- This spell deals 2 damage divided as you choose among up to two target creatures. Tap them.
+- When this spell resolves, it deals 2 damage to up to one target creature. Tap it.
 - Create a */* blue Weird creature token with “This creature’s power and toughness are each equal to the number of cards in your hand plus one.”
 - Draw a card.
 ---
@@ -5837,7 +5837,7 @@ Sacrifice a permanent:¯¯\_(ツ)_/¯
       </prop>
       <tablerow>2</tablerow>
       <text>As this creature enters, choose a card type from among instant, sorcery, artifact, enchantment, or planeswalker.
-Whenever a player casts or copies a spell of the chosen type or an ability of a permanent of the chosen type is activated or triggered, its controller may counter that spell or ability. If they don’t, this creature deals damage equal to its power to that player.
+Whenever a player casts or copies a spell of the chosen type or activates an ability with a source of the chosen type, they may counter that spell or ability. If they don’t, this creature deals damage equal to its power to that player.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -6593,7 +6593,7 @@ Draw a card.
       <text>Flying, lifelink
 When this creature is exiled from the battlefield, put it into its owner’s graveyard. 
 Dash 3WWWW (You may cast this spell for its dash cost. If you do, it gains haste, and it’s returned from the battlefield to its owner’s hand at the beginning of the next end step.)
-You may Dash this card from your graveyard.
+You may dash this card from your graveyard.
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -7334,8 +7334,7 @@ Menace, deathtouch
       </prop>
       <tablerow>3</tablerow>
       <text>Discard your hand, then draw three cards.
-Fleshify 1R (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
-This creature enters with a number of +1/+1 counters on it equal to your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn.)
+Fleshify 5R. This ability costs {X} less to activate, where X is your wind scale.  (Your wind scale is equal to the number of spells you’ve cast or copied this turn.)
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -7891,7 +7890,7 @@ Creatures you control get +1/+0 and have “When this creature dies, each oppone
       <tablerow>2</tablerow>
       <text>Reach
 Cycling {2} ({2}, Discard this card: Draw a card.)
-When this card is put into your graveyard from anywhere, you may pay GG and exile it. When you do, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.”
+2GG, Exile this card from your graveyard: Create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.”
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -8054,8 +8053,8 @@ This creature has haste and vigilance as long as you control no other creatures.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever you would draw a card, surveil 2, gain 2 life, and put a charge counter on this enchantment instead.
-2W, Sacrifice this enchantment: Draw a card for each charge counter on this enchantment. Activate only as a sorcery.
+      <text>Whenever you would draw a card during your draw step, surveil 2, gain 2 life, and put a charge counter on this enchantment instead.
+3W, Sacrifice this enchantment: Draw a card for each charge counter on this enchantment. Activate only as a sorcery.
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
