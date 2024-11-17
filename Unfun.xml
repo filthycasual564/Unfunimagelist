@@ -114,17 +114,17 @@ At the beginning of combat on your turn, if you are playing Timmy magic, this cr
       <set rarity="common" splitterPath="/Spike's Command.png" >SHIT</set>
       <prop>
         <colors>BR</colors>
-        <manacost>1BR</manacost>
-        <cmc>3</cmc>
-        <type>Kindred Instant - Gamer </type>
-        <maintype>Instant</maintype>
+        <manacost>2BR</manacost>
+        <cmc>4</cmc>
+        <type>Kindred Sorcery - Gamer </type>
+        <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Choose two;
-- Until end of turn target creature gains “When this creature dies, return it to the battlefield tapped under its owner’s control.”
-- Target player sacrifices an artifact.
-- Target player discards a card and loses 1 life.
-- Create a token that is a copy of a card named Orcish Bowmasters. It gains “At the beginning of each end step, sacrifice this creature.”
+      <text>Conjure two cards with different names from among the following and put them into your hand;
+- Not Dead After All
+- Orcish Bowmasters
+- Fable of the Mirror-Breaker
+- Sheoldred, the Apocalypse
 ---
 (Back): Spike Place</text>
       <related attach="transform">Spike Place</related>
@@ -135,13 +135,13 @@ At the beginning of combat on your turn, if you are playing Timmy magic, this cr
       <prop>
         <colors>BR</colors>
         <manacost></manacost>
-        <cmc>3</cmc>
+        <cmc>4</cmc>
         <type>Land</type>
       </prop>
       <tablerow>0</tablerow>
       <text>This land enters tapped.
 {T}: Add {B} or {R}
-2BR, {T}, Sacrifice this land: Create a token that is a copy of a card named Bojuka Bog or Valakut, the Molten Pinnacle.
+3BR, {T}, Sacrifice this land: Conjure cards named Bojuka Bog and Valakut, the Molten Pinnacle onto the battlefield. Activate only as a sorcery.
 ---
 (Front): Spike&apos;s Command</text>
       <related attach="transform">Spike&apos;s Command</related>
@@ -180,8 +180,8 @@ This creature can’t block.
       <related attach="transform">Dog Champion</related>
     </card>
     <card>
-      <name>A Very Good Boy</name>
-      <set rarity="common" splitterPath="/A Very Good Boy.png" >SHIT</set>
+      <name>Good Dog</name>
+      <set rarity="common" splitterPath="/Good Dog.png" >SHIT</set>
       <prop>
         <colors>WG</colors>
         <manacost>GW</manacost>
@@ -211,8 +211,8 @@ Battle cry (When this creature attacks, each other attacking creature gets +1/+0
 {T}: Add {G} or {W}
 2GW, {T}, Sacrifice this land: Create two 1/1 white Dog creature tokens. Activate only as a sorcery.
 ---
-(Front): A Very Good Boy</text>
-      <related attach="transform">A Very Good Boy</related>
+(Front): Good Dog</text>
+      <related attach="transform">Good Dog</related>
     </card>
     <card>
       <name>Dog Angel</name>
@@ -830,9 +830,9 @@ BG, {T}, Sacrifice this land: Surveil 4. (Look at the top four cards of your lib
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Look at the top two cards of target opponent’s library. Exile one of them, then put the other on the top or bottom of that library. Conjure a duplicate of the exiled card into your hand.
+      <text>Look at the top two cards of target opponent’s library. Steal and reveal one of them, then put the other on the top or bottom of that library. Put the stolen card into your hand. (You own it now.)
 Fleshify 2UB
-When you commit a crime, put a +1/+1 counter on this creature. It can’t be blocked this turn. This ability triggers only once each turn. 
+Whenever you steal, put a +1/+1 counter on this creature. It can’t be blocked this turn.
 ---
 (Back): Unoriginal Land</text>
       <related attach="transform">Unoriginal Land</related>
@@ -931,7 +931,8 @@ Dash {U} (You may cast this spell for its dash cost. If you do, it gains haste, 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Gain control of target nonland permanent. Untap it. Conjure a card that is a duplicate of that permanent into your hand. (Reveal it from outside the game, then put it into your hand.)
+      <text>Steal target permanent. (You own and control that permanent, permanently.)
+Steal and reveal the top card of target opponent’s library and put it into your hand.
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -962,8 +963,8 @@ Dash {U} (You may cast this spell for its dash cost. If you do, it gains haste, 
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Counter target spell. If you do and this spell was kicked, exile the countered spell instead of putting it into its owner’s graveyard and conjure a card that is a duplicate of that spell into your hand.
+      <text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Counter target spell. If this spell was kicked, steal it instead and you may choose new targets for it. (You own and control that spell.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -1382,9 +1383,7 @@ Dash 1GG
       </prop>
       <tablerow>3</tablerow>
       <text>Until end of turn target creature gets “When this creature dies, return it to the battlefield under its owner’s control and hoard.”
-Fleshify 2BB
-Deathtouch
-When this creature attacks, the defending player may untap it and remove it from combat. If they do, surveil 1 and hoard. Otherwise, it gains indestructible until end of turn.
+If you’ve stolen from an opponent this turn, this card has Fleshify 1B.  (To fleshify, put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -1710,7 +1709,7 @@ Flashback XBBB  (You may cast this card from your graveyard for its flashback co
       </prop>
       <tablerow>3</tablerow>
       <text>Create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0, where X is the greatest power among creatures you control.”
-Fleshify 5G (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
+Fleshify 6G (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -2075,7 +2074,7 @@ Fleshify {W} (Put this card onto the battlefield from your graveyard as a creatu
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever another creature you control dies, each opponent loses 1 life and you gain 1 life.
-{B}, {T}, Sacrifice a creature: Exile the top card of target opponent’s library. Conjure a duplicate of that card into your hand. (Reveal it from outside the game.)
+{B}, {T}, Sacrifice a creature: Steal and reveal the top card of target opponent’s library and put it into your hand. (You own it now.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -3065,7 +3064,7 @@ When this creature dies, it deals damage equal to its power to everything. (Play
       <tablerow>1</tablerow>
       <text>(As a Skirmish enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, its defeat ability triggers. Its sacrificed afterwards.)
 When this battle enters, the player protecting it sacrifices a creature with the highest power among creatures they control.
-When this battle is defeated, return target creature card from its protector’s graveyard to the battlefield under your control.
+When this battle is defeated, steal target creature card from its protector’s graveyard and put it onto the battlefield under your control. (You own it now.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -3218,18 +3217,19 @@ When this creature enters, put a deathtouch counter on up to one target creature
       <related attach="transform">Bonebotter</related>
     </card>
     <card>
-      <name>Cyberhacker</name>
-      <set rarity="common" splitterPath="/Cyberhacker.png" >SHIT</set>
+      <name>Cop Man</name>
+      <set rarity="common" splitterPath="/Cop Man.png" >SHIT</set>
       <prop>
         <colors>U</colors>
-        <manacost>2UU</manacost>
+        <manacost>3U</manacost>
         <cmc>4</cmc>
-        <type>Creature - Dog Rogue Gamer </type>
+        <type>Creature - Human Cop </type>
         <maintype>Creature</maintype>
-        <pt>3/3</pt>
+        <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>{T}: Gain control of target artifact or enchantment until end of turn. Untap it. It gains “{4}, Discard a card: Exile this permanent” until end of turn. Activate only as a sorcery.
+      <text>Flash
+This spell costs 1U less to cast you were stolen from you this turn.
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -3246,8 +3246,8 @@ When this creature enters, put a deathtouch counter on up to one target creature
       <tablerow>0</tablerow>
       <text>{T}: Add {U}
 ---
-(Front): Cyberhacker</text>
-      <related attach="transform">Cyberhacker</related>
+(Front): Cop Man</text>
+      <related attach="transform">Cop Man</related>
     </card>
     <card>
       <name>Paradox Draw</name>
@@ -3390,7 +3390,7 @@ BB, Sacrifice X creatures, Sacrifice this enchantment: Destroy each creature wit
         <pt>3/6</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>{3}: Exile target card from an opponent’s graveyard. Conjure a duplicate of that card into your hand. Activate only as a sorcery.
+      <text>{3}: Steal target card from an opponent’s graveyard and put it into your hand. (You own it now.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -3807,9 +3807,8 @@ At the beginning of your end step, you may pay 1B. When you do, each opponent lo
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target player creates three 1/1 blue Tadpole creature tokens. Gain control of target creature or land. Destroy all Humans target player controls.
-Fleshify 6BB (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
-When you fleshify this card, create two tokens that are copies of it. They are creatures in addition to their other types.
+      <text>Target player creates three 1/1 blue Tadpole creature tokens. Steal target creature or land. Destroy all Humans you don’t control. (You own the stolen permanent.)
+Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -4227,15 +4226,15 @@ Enchanted permanent is a green Wurm creature with base power and toughness 4/3 i
       <set rarity="common" splitterPath="/The Transistor.png" >SHIT</set>
       <prop>
         <colors>R</colors>
-        <manacost>1R</manacost>
-        <cmc>2</cmc>
+        <manacost>3R</manacost>
+        <cmc>4</cmc>
         <type>Legendary Artifact - Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature has first strike, trample, and haste.
-Whenever equipped creature you control deals combat damage to an opponent, you may sacrifice it. When you do, untap each creature you control. After your next main phase, there is an additional combat phase followed by an additional main phase.
-Equip {2}
+      <text>Equipped creature gets +1/+0 and has first strike, trample, and haste.
+Whenever equipped creature you control deals combat damage to an opponent, you may sacrifice it. When you do, untap each creature you control. After this phase, there is an additional combat phase. Attach this equipment to up to one target creature.
+Equip 1R
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -4246,7 +4245,7 @@ Equip {2}
       <prop>
         <colors>R</colors>
         <manacost></manacost>
-        <cmc>2</cmc>
+        <cmc>4</cmc>
         <type>Basic Land - Mountain </type>
       </prop>
       <tablerow>0</tablerow>
@@ -4395,7 +4394,7 @@ Prepare. (Create a Scroll artifact token with “{2}, {T}, sacrifice this artifa
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target opponent reveals their hand. You may discard a card. If you do, exile a card from that player’s hand. Conjure a duplicate of it into your hand. (Reveal it from outside the game.)
+      <text>Target opponent reveals their hand. You may discard a card. If you do, steal a card from that player’s hand and put it into your hand. (You own it now.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -4494,7 +4493,7 @@ Creatures get -3/-0.
       </prop>
       <tablerow>2</tablerow>
       <text>Trample, ward— pay life equal to this creature’s power.
-Whenever an opponent gains life, this creature deals damage equal to its power to that player.
+Whenever an opponent steals from you, this creature deals damage equal to its power to that player.
 When this creature deals combat damage to a player, it deals that much damage to up to one target battle or planeswalker.
 ---
 (Back): Mountain</text>
@@ -4657,8 +4656,8 @@ When this artifact enters or is put into a graveyard from the battlefield, targe
         <pt>2/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>At the beginning of your end step, exile up to X cards from target opponent’s library, where X is your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
-At the beginning of your upkeep, you may choose a card exiled with this creature. If you do, that card’s owner puts it on the bottom of their library. Conjure a duplicate of that card into your hand.
+      <text>At the beginning of your end step, steal and exile the top X cards of target opponent’s library, where X is your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
+At the beginning of your upkeep, put a card you own exiled with this creature into your hand. (You own stolen cards.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -4818,7 +4817,7 @@ Other creatures you control with power 5 or greater are Dragons in addition to t
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target up to two creatures you control. For each of them, that creature fights target creature you don’t control. When a creature you control survives fighting this way, return it to its owner’s hand. (A creature survives if it is still on the battlefield after this spell resolves.)
+      <text>Target up to two creatures you control. For each of them, that creature fights target creature you don’t control. When a creature you control survives fighting this way, return it to its owner’s hand. (A creature survives if it isn’t dealt lethal damage.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -5402,8 +5401,8 @@ At the beginning of your upkeep, look at the top card of your library. If it’s
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When you commit a crime, put a +1/+1 counter on this creature and hoard. This ability triggers only once each turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)
-2UB, Discard a card: Exile the top card of target opponent’s library. Conjure a duplicate of it into your hand. Activate only as a sorcery.
+      <text>Whenever you steal a card, put a +1/+1 counter on this creature and hoard.
+2UB, Discard a card: Steal and reveal the top card of target opponent’s library and put it into your hand. Activate only as a sorcery. (You own it now.)
 ---
 (Back): Pirate&apos;s Cove</text>
       <related attach="transform">Pirate&apos;s Cove</related>
@@ -5418,7 +5417,7 @@ At the beginning of your upkeep, look at the top card of your library. If it’s
         <type>Land</type>
       </prop>
       <tablerow>0</tablerow>
-      <text>This land enters tapped unless you have committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)
+      <text>This land enters tapped unless you have stolen a card this turn.
 {T}: Add {U} or {B}.
 ---
 (Front): Captain Weesnaw</text>
@@ -5503,7 +5502,7 @@ At the beginning of your end step, if a creature died this turn, put a +1/+1 cou
       </prop>
       <tablerow>3</tablerow>
       <text>Conjure a basic land card of your choice into your hand. (Reveal it from outside the game, then put it into your hand.)
-Fleshify 3GG (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
+Fleshify 4GG (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 Reach
 This creature’s power and toughness are each equal to the number of lands you control.
 ---
@@ -5736,8 +5735,8 @@ At the beginning of your upkeep, put a charge counter on this enchantment. Then 
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, investigate. Then if you haven’t done so this game, conjure each ethereal Shell artifact on top of your library, then shuffle.
-When an artifact enters under your control, put a +1/+1 counter on this creature and surveil X, where X is this creature’s toughness. This ability triggers only once each turn.
+      <text>When this creature enters, investigate. Then if you haven’t done so this game, conjure each ethereal Shell artifact on top of your library, then shuffle. (Get them from outside the game.)
+When an artifact enters under your control for the first time each turn, put a +1/+1 counter on this creature and surveil X, where X is this creature’s toughness.
 ---
 (Back): The Sands Between</text>
       <related attach="transform">The Sands Between</related>
@@ -6035,7 +6034,7 @@ Enchanted creature gets +1/+2 and has reach.
       </prop>
       <tablerow>2</tablerow>
       <text>Haste
-When this creature attacks, you may cast target instant or sorcery card with mana value less than this creature’s power in a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead.
+When this creature attacks, exile up to one target instant or sorcery card with mana value less than this creature’s power in a graveyard. Copy it. You may cast the copy without paying its mana cost.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -6097,11 +6096,11 @@ When this creature dies, you may discard your hand. If you do, draw two cards.
         <cmc>4</cmc>
         <type>Creature - Dog </type>
         <maintype>Creature</maintype>
-        <pt>4/4</pt>
+        <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Trample
-When this creature deals combat damage to a player, Cook. (Create a Food artifact token with “{2},{T}, sacrifice this artifact: You gain 3 life”)
+When this creature deals combat damage to a player, cook. (Create a Food artifact token with “{2},{T}, sacrifice this artifact: You gain 3 life”)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -6133,7 +6132,7 @@ When this creature deals combat damage to a player, Cook. (Create a Food artifac
         <pt>4/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature attacks, Cook.
+      <text>When this creature attacks, cook.
 1G, Sacrifice an artifact: Create a 1/1 blue Tadpole creature token. Activate only as a sorcery.
 Dash 2GG  (You may cast this spell for its dash cost. If you do, it gains haste, and it’s returned from the battlefield to its owner’s hand at the beginning of the next end step.)
 ---
@@ -6459,8 +6458,8 @@ You may evoke this spell from your graveyard.
       </prop>
       <tablerow>2</tablerow>
       <text>Evoke 1B (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)
-When this creature enters, target opponent reveals their hand. You may exile a card from it. If you do, that player draws a card and you conjure a duplicate of the exiled card into your hand.
-This creature has flying as long as you’ve committed a crime this turn.  (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)
+When this creature enters, target opponent reveals their hand. You may steal a card from it and put the stolen card into your hand. If you do, that player draws a card. (You own stolen cards.)
+This creature has flying as long as you’ve stolen this turn.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -6626,7 +6625,7 @@ You may dash this card from your graveyard.
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-When this creature enters, conjure a card named Plains into your hand. If an opponent controls more lands than you, you may conjure that card onto the battlefield tapped instead.
+When this creature enters, conjure a card named Plains into your hand. If an opponent controls more lands than you, you may conjure that card onto the battlefield tapped instead. (Get that card from outside the game.)
 ---
 (Back): Strange Plain</text>
       <related attach="transform">Strange Plain</related>
@@ -6898,7 +6897,7 @@ When this creature attacks, prepare. Then if you are playing Timmy magic, you ma
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Each player discards their hand and exiles the top seven cards of their library, then conjures a duplicate of each card the player to their right exiled from their library this way into their hand. Exile this spell.
+      <text>Each player discards their hand, then steals and reveals the top seven cards of the library of the player to their right and puts those cards into their hand. Exile this spell. (Cards stolen are owned by the stealing player.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -6964,9 +6963,9 @@ Equip {3}
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Equipped creature gets +1/+1 and is an artifact in addition to its other types.
-Reconfigure {3}. Activate only if this equipment is a creature.  ({3}: Attach to target creature you control. Reconfigure only as a sorcery. While attached, this isn’t a creature.)
-When this equipment becomes attached to a creature, conjure a card that is a duplicate of this equipment into your hand.
+      <text>Equipped creature gets +1/+0 and is an artifact in addition to its other types.
+When equipped creature attacks, conjure a duplicate of this equipment into your hand.
+Reconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn’t a creature.)
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -6998,7 +6997,7 @@ When this equipment becomes attached to a creature, conjure a card that is a dup
         <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you cast a spell from your hand or graveyard with mana value 2 or greater, up to one target opponent reveals cards from the top of their library until they reveal a nonland card with lesser mana value. Exile that card. That player puts the rest of the revealed cards on the bottom of their library in a random order. Cast a conjured duplicate of the exiled card without paying its mana cost. (If you can cast it, you must. If you can’t, it isn’t conjured.)
+      <text>Whenever you cast a spell from your hand or graveyard with mana value 2 or greater, up to one target opponent reveals cards from the top of their library until they reveal a nonland card with lesser mana value. Steal that card. That player puts the rest of the revealed cards on the bottom of their library in a random order. Cast the stolen card without paying its mana cost. If you can’t, exile it. (If you can cast it, you must.)
 ---
 (Back): Wonderstar Casino</text>
       <related attach="transform">Wonderstar Casino</related>
@@ -7033,7 +7032,7 @@ UBR, {T}: Look at the top three cards of target player’s library. Put any numb
       </prop>
       <tablerow>2</tablerow>
       <text>This creature can’t be blocked by creatures with toughness 3 or greater.
-When this creature deals combat damage to an opponent, exile the top card of that player’s library. Conjure a duplicate of it into your hand.
+When this creature deals combat damage to an opponent, steal and reveal the top card of their library and put it into your hand. (You own it now.)
 Dash 2U
 ---
 (Back): Island</text>
@@ -7301,7 +7300,7 @@ Evoke 1RR (You may cast this spell for its evoke cost. If you do, it’s sacrifi
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>This spell costs {2} less to cast if you’ve committed a crime this turn. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)
+      <text>This spell costs {2} less to cast if you’ve stolen this turn.
 Menace, deathtouch
 ---
 (Back): Swamp</text>
@@ -7498,7 +7497,7 @@ When you cast your second spell each turn, you may return this creature to its o
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Search target opponent’s library for a card and exile it. That player shuffles. Conjure a duplicate of the exiled card into your hand.
+      <text>Search target opponent’s library for a card. Steal and reveal it into your hand. That player shuffles. (You own the stolen card.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -7789,7 +7788,7 @@ Evoke 1UU (You may cast this spell for its evoke cost. If you do, it’s sacrifi
         <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature attacks, exile the top card of the defending player’s library. For each colored mana symbol in that card’s mana cost, add one mana of any color in that symbol. Until end of turn, you don’t lose this mana as steps and phases end. Conjure a duplicate of the exiled card into your hand.
+      <text>When this creature attacks, steal and reveal the top card of the defending player’s library and put it into your hand. For each colored mana symbol in that card’s mana cost, add one mana of any color in that symbol. Until end of turn, you don’t lose this mana as steps and phases end.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -7922,7 +7921,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
         <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature deals combat damage to an opponent, hoard. Then exile up to three target cards from that player’s graveyard. Conjure a duplicate of each card exiled this way into your graveyard.
+      <text>When this creature deals combat damage to an opponent, hoard. Then steal up to three target cards from that player’s graveyard and put them into your graveyard. (You own them now.)
 At the beginning of your upkeep, you may give target card in your graveyard dredge 2 until end of turn. If you don’t, this creature gains menace until end of turn.
 ---
 (Back): Swamp</text>
@@ -8119,7 +8118,7 @@ As this creature enters, exile a creature card from your graveyard that was put 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target a land an opponent controls. Conjure a card that is a duplicate of that land onto the battlefield tapped as a land.
+      <text>Steal target land. Its (previous) owner conjures a basic land card of their choice onto the battlefield.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
 (Back): Island</text>
