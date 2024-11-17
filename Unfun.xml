@@ -3229,7 +3229,7 @@ When this creature enters, put a deathtouch counter on up to one target creature
       </prop>
       <tablerow>2</tablerow>
       <text>Flash
-This spell costs 1U less to cast you were stolen from you this turn.
+This spell costs 1U less to cast if an opponent stole from you this turn.
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
