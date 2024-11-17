@@ -4917,7 +4917,7 @@ Draw four cards, then discard two cards. Hoard. (Create a Treasure artifact toke
       <text>{T}, Discard a card: Draw two cards. Each opponent draws a card.
 {T}, Discard two cards: Untap two other target permanents.
 {T}, Discard three cards: Cook, hoard, and prepare.
-{T}, Discard four cards: Transform this artifact and another target permanent.
+{T}, Discard four cards: Transform this artifact and another target non-ethereal permanent.
 {3}: Untap this artifact.
 ---
 (Back): Bizzare Bazzare</text>
