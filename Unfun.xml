@@ -959,7 +959,7 @@ Steal and reveal the top card of target opponent’s library and put it into you
         <colors>U</colors>
         <manacost>1UU</manacost>
         <cmc>3</cmc>
-        <type>Instant</type>
+        <type>Kindred Instant - Fox  </type>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
@@ -5401,7 +5401,7 @@ At the beginning of your upkeep, look at the top card of your library. If it’s
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you steal a card, put a +1/+1 counter on this creature and hoard.
+      <text>Whenever you steal, put a +1/+1 counter on this creature and hoard.
 2UB, Discard a card: Steal and reveal the top card of target opponent’s library and put it into your hand. Activate only as a sorcery. (You own it now.)
 ---
 (Back): Pirate&apos;s Cove</text>
@@ -6458,7 +6458,7 @@ You may evoke this spell from your graveyard.
       </prop>
       <tablerow>2</tablerow>
       <text>Evoke 1B (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)
-When this creature enters, target opponent reveals their hand. You may steal a card from it and put the stolen card into your hand. If you do, that player draws a card. (You own stolen cards.)
+When this creature enters, target opponent reveals their hand. You may steal a card from it and put that card into your hand. If you do, that player draws a card. (You own stolen cards.)
 This creature has flying as long as you’ve stolen this turn.
 ---
 (Back): Swamp</text>
@@ -7497,7 +7497,7 @@ When you cast your second spell each turn, you may return this creature to its o
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Search target opponent’s library for a card. Steal and reveal it into your hand. That player shuffles. (You own the stolen card.)
+      <text>Search target opponent’s library for a card and steal it. Reveal that card and put it into your hand. That player shuffles. (You own the stolen card.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -7788,7 +7788,7 @@ Evoke 1UU (You may cast this spell for its evoke cost. If you do, it’s sacrifi
         <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature attacks, steal and reveal the top card of the defending player’s library and put it into your hand. For each colored mana symbol in that card’s mana cost, add one mana of any color in that symbol. Until end of turn, you don’t lose this mana as steps and phases end.
+      <text>When this creature attacks, steal and reveal the top card of the defending player’s library. For each colored mana symbol in that card’s mana cost, add one mana of any color in that symbol. Until end of turn, you don’t lose this mana as steps and phases end. Put the stolen card into your hand.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
