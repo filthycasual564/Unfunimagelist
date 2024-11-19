@@ -931,7 +931,7 @@ Dash {U} (You may cast this spell for its dash cost. If you do, it gains haste, 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Steal target permanent. (You own and control that permanent, permanently.)
+      <text>Steal target permanent you don’t control. (You own and control that permanent, permanently.)
 Steal and reveal the top card of target opponent’s library and put it into your hand.
 ---
 (Back): Island</text>
@@ -964,7 +964,7 @@ Steal and reveal the top card of target opponent’s library and put it into you
       </prop>
       <tablerow>3</tablerow>
       <text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
-Counter target spell. If this spell was kicked, steal it instead and you may choose new targets for it. (You own and control that spell.)
+Counter target spell you don’t control. If this spell was kicked, steal it instead and you may choose new targets for it. (You own and control that spell.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -2563,7 +2563,7 @@ When this creature enters, return target permanent spell or noncreature artifact
         <colors>U</colors>
         <manacost>U</manacost>
         <cmc>1</cmc>
-        <type>Creature - Human Citizen </type>
+        <type>Creature - Human Gamer </type>
         <maintype>Creature</maintype>
         <pt>0/1</pt>
       </prop>
@@ -3807,7 +3807,7 @@ At the beginning of your end step, you may pay 1B. When you do, each opponent lo
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target player creates three 1/1 blue Tadpole creature tokens. Steal target creature or land. Destroy all Humans you don’t control. (You own the stolen permanent.)
+      <text>Target player creates three 1/1 blue Tadpole creature tokens. Steal target creature or land you don’t control. Destroy all Humans you don’t control. (You own the stolen permanent.)
 Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
 (Back): Swamp</text>
@@ -5417,7 +5417,7 @@ At the beginning of your upkeep, look at the top card of your library. If it’s
         <type>Land</type>
       </prop>
       <tablerow>0</tablerow>
-      <text>This land enters tapped unless you have stolen a card this turn.
+      <text>This land enters tapped unless you have stolen this turn.
 {T}: Add {U} or {B}.
 ---
 (Front): Captain Weesnaw</text>
@@ -8118,7 +8118,7 @@ As this creature enters, exile a creature card from your graveyard that was put 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Steal target land. Its (previous) owner conjures a basic land card of their choice onto the battlefield.
+      <text>Target land’s controller may conjure a basic land card of their choice onto the battlefield. Then steal the targeted land. (You own and control it now.)
 Cycling {2} ({2}, Discard this card: Draw a card.)
 ---
 (Back): Island</text>
