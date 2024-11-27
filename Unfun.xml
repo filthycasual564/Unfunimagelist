@@ -324,7 +324,7 @@ When you fleshify this card, create a 1/1 white Dog creature token for each card
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>If target creature is a Dog you control, put a +1/+1 counter on it and untap it. It has indestructible until end of turn. Otherwise, each Dog you control deals 1 damage to it.
+      <text>If target creature is a Dog you control, put a +1/+1 counter on it and untap it. It gains indestructible until end of turn. Otherwise, each Dog you control deals 1 damage to it.
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -612,7 +612,7 @@ When this creature attacks, if you are playing Timmy magic, create a 0/3 green D
       <tablerow>0</tablerow>
       <text>This land enters tapped.
 {T}: Add {R} or {G}
-XRGG, {T}:  Until end of turn, target creature you control gets +X/+0, has trample, and is a Dinosaur in addition to its other types. Activate only as a sorcery.
+XRGG, {T}:  Until end of turn, target creature you control gets +X/+0, gains trample, and is a Dinosaur in addition to its other types. Activate only as a sorcery.
 ---
 (Front): Timmy the Kid</text>
       <related attach="transform">Timmy the Kid</related>
@@ -662,7 +662,7 @@ Whenever you copy a noncreature spell, create a tapped 1/1 colorless Servo artif
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature you control gets +3/+0 and has haste, flying, and “When this creature dies, draw a card” until end of turn. At the beginning of the next end step, sacrifice that creature.
+      <text>Target creature you control gets +3/+0 and gains haste, flying, and “When this creature dies, draw a card” until end of turn. At the beginning of the next end step, sacrifice that creature.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -1676,7 +1676,7 @@ Flashback XBBB  (You may cast this card from your graveyard for its flashback co
       </prop>
       <tablerow>3</tablerow>
       <text>Choose one;
--Target creature you control gets +3/+2 and has trample until end of turn.
+-Target creature you control gets +3/+2 and gains trample until end of turn.
 -The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
 ---
 (Back): Mountain</text>
@@ -3064,7 +3064,7 @@ When this creature dies, it deals damage equal to its power to everything. (Play
       <tablerow>1</tablerow>
       <text>(As a Skirmish enters, choose an opponent to protect it. You and others can attack it. When it’s defeated, its defeat ability triggers. Its sacrificed afterwards.)
 When this battle enters, the player protecting it sacrifices a creature with the highest power among creatures they control.
-When this battle is defeated, steal target creature card from its protector’s graveyard and put it onto the battlefield under your control. (You own it now.)
+When this battle is defeated, steal target creature card from its protector’s graveyard and put that card onto the battlefield under your control. (You own it now.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -3549,7 +3549,7 @@ At the beginning of your end step, if you descended this turn, hoard. (You desce
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target attacking creature you control gets +4/+4 and has trample until end of turn. Untap it.
+      <text>Target attacking creature you control gets +4/+4 and gains trample until end of turn. Untap it.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -3710,7 +3710,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
       <tablerow>3</tablerow>
       <text>Choose one;
 - Destroy target artifact.
-- Target artifact creature gets +3/+0 and has haste and trample until end of turn. This spell deals 1 damage to it.
+- Target artifact creature gets +3/+0 and gains haste and trample until end of turn. This spell deals 1 damage to it.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -4233,7 +4233,7 @@ Enchanted permanent is a green Wurm creature with base power and toughness 4/3 i
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +1/+0 and has first strike, trample, and haste.
-Whenever equipped creature you control deals combat damage to an opponent, you may sacrifice it. When you do, untap each creature you control. After this phase, there is an additional combat phase. Attach this equipment to up to one target creature.
+Whenever equipped creature deals combat damage to an opponent, you may sacrifice it. When you do, untap each creature you control. After this phase, there is an additional combat phase. Attach this equipment to up to one target creature you control.
 Equip 1R
 ---
 (Back): Mountain</text>
@@ -4557,8 +4557,7 @@ When this creature deals combat damage to a player, it deals that much damage to
       </prop>
       <tablerow>1</tablerow>
       <text>Flash
-This artifact enters tapped.
-When this artifact enters or is put into a graveyard from the battlefield, target creature you control gets +X/+X until end of turn, where X is its power.
+When this artifact enters, double target creature’s power and toughness until end of turn.
 {2}, {T}, Sacrifice this artifact: You gain 3 life.
 ---
 (Back): Forest</text>
@@ -5401,7 +5400,7 @@ At the beginning of your upkeep, look at the top card of your library. If it’s
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you steal, put a +1/+1 counter on this creature and hoard.
+      <text>Whenever you steal, put a +1/+1 counter on this creature and hoard. (Create a Treasure artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.”)
 2UB, Discard a card: Steal and reveal the top card of target opponent’s library and put it into your hand. Activate only as a sorcery. (You own it now.)
 ---
 (Back): Pirate&apos;s Cove</text>
@@ -5900,7 +5899,7 @@ Dash 3UU  (You may cast this spell for its dash cost. If you do, it gains haste,
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever a creature you control dies, create a token that is a copy of it, except it’s a Spirit kindred enchantment and loses all other types. (It isn’t a creature.)
+      <text>Whenever a creature you control dies, create a token that is a copy of it, except it’s a kindred Spirit enchantment. (It isn’t a creature and has no other creature types.)
 {4}, Sacrifice an enchantment: Draw a card.
 ---
 (Back): Plains</text>
@@ -7097,8 +7096,7 @@ Dash 2U
       </prop>
       <tablerow>1</tablerow>
       <text>(Any player may attack this battle or block creatures attacking this battle. When its defeated, the player that removed the last counter wins the battle. Its sacrificed afterwards.)
-When this battle enters, search your library for a creature card with mana value 4 or less, put it onto the battlefield, and shuffle. That creature gains trample and haste until end of turn.
-Creatures attack each combat if able.
+When this battle enters, search your library for a creature card with mana value 4 or less, put it onto the battlefield, then shuffle. That creature gains trample and haste until end of turn.
 When this battle is defeated, the winner cooks thrice, hoards thrice, and gets an emblem with “Creatures you control have trample and haste.”
 ---
 (Back): Tilted Towers</text>
@@ -7116,7 +7114,7 @@ When this battle is defeated, the winner cooks thrice, hoards thrice, and gets a
       <tablerow>0</tablerow>
       <text>This land enters tapped.
 {T}: Add {B}, {R}, or {G}
-BRG, {T}: Target creature you control fights another target creature you control. When one of those creatures survives fighting this way and the other doesn’t, put a +1/+1 counter on the surviving creature and remove all damage from it. Activate only as a sorcery.
+BRG, {T}: Target creature you control fights another target creature you control. When one of those creatures survives fighting this way and the other doesn’t, put two +1/+1 counters on the surviving creature and remove all damage from it. Activate only as a sorcery.
 ---
 (Front): Where We Droppin</text>
       <related attach="transform">Where We Droppin</related>
