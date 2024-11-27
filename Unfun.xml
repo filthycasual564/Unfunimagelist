@@ -4546,8 +4546,8 @@ When this creature deals combat damage to a player, it deals that much damage to
       <related attach="transform">Illegalware Detected</related>
     </card>
     <card>
-      <name>Grean Beans</name>
-      <set rarity="common" splitterPath="/Grean Beans.png" >SHIT</set>
+      <name>Spinach</name>
+      <set rarity="common" splitterPath="/Spinach.png" >SHIT</set>
       <prop>
         <colors>G</colors>
         <manacost>1G</manacost>
@@ -4575,8 +4575,8 @@ When this artifact enters, double target creature’s power and toughness until 
       <tablerow>0</tablerow>
       <text>{T}: Add {G}
 ---
-(Front): Grean Beans</text>
-      <related attach="transform">Grean Beans</related>
+(Front): Spinach</text>
+      <related attach="transform">Spinach</related>
     </card>
     <card>
       <name>Roomba</name>
