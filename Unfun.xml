@@ -3223,7 +3223,7 @@ When this creature enters, put a deathtouch counter on up to one target creature
         <colors>U</colors>
         <manacost>3U</manacost>
         <cmc>4</cmc>
-        <type>Creature - Human Cop </type>
+        <type>Creature - Human Boar </type>
         <maintype>Creature</maintype>
         <pt>3/4</pt>
       </prop>
@@ -5092,7 +5092,7 @@ Haste, double strike, ward—pay 3 life.
       </prop>
       <tablerow>0</tablerow>
       <text>[+1]: Each player discards a card. You draw a card.
-[-3]: Each player sacrifices a creature. Return a creature card with mana value 2 or less from a graveyard to the battlefield under your control.
+[-3]: Each player sacrifices a creature. Return a creature card with mana value 2 or less from your graveyard to the battlefield.
 
 ---
 (Back): Swamp</text>
