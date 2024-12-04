@@ -6197,7 +6197,8 @@ Dash 2UU (You may cast this spell for its dash cost. If you do, it gains haste, 
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>End the turn. If it isn’t your turn, put a stun counter on each of three tapped lands you control. Otherwise, put a stun counter on each of up to three target lands.
+      <text>If it’s your turn, untap up to five lands you control. Otherwise, put a stun counter on each of five tapped lands you control.
+End the turn. (Exile the stack, including this spell. Perform end of turn cleanup. It becomes the next player’s turn.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
