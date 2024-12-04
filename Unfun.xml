@@ -6262,7 +6262,7 @@ When this creature enters, target any number of spells you don’t control. For 
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever another creature you control would be destroyed, remove all damage from it instead unless an opponent pays {1}.
+      <text>If another creature you control would be destroyed by a spell or ability or by damage, remove all damage from that creature instead unless any player pays {1}.
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -7148,7 +7148,7 @@ When this creature enters, it deals an amount of damage to up to one target crea
         <type>Artifact Land</type>
       </prop>
       <tablerow>0</tablerow>
-      <text>At the beginning of the first main phase of your turn, you may choose a basic land type. If you do, lands you control become that type until end of turn. (They lose other types and abilities.)
+      <text>At the beginning of your first main phase in a turn, you may choose a basic land type. If you do, lands you control become that type until end of turn. (They lose other types and abilities.)
 ---
 (Front): Bot Friend</text>
       <related attach="transform">Bot Friend</related>
@@ -7429,8 +7429,8 @@ Equipped creature gets -1/-0.
         <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, if you control fewer than three spirits, conjure a duplicate of this card into your hand.
-This creature gets +1/+0 and has flying as long as you control three or more spirits.
+      <text>When this creature enters, if you control fewer than three Spirits, conjure a duplicate of this card into your hand.
+This creature gets +1/+0 and has flying as long as you control three or more Spirits.
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
