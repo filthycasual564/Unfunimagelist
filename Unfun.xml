@@ -192,7 +192,7 @@ This creature can’t block.
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
-Battle cry (When this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
 ---
 (Back): Golden Fields</text>
       <related attach="transform">Golden Fields</related>
@@ -1943,7 +1943,7 @@ When you dredge up this card, you may pay 2 life. When you do, put this card fro
       <text>This spell deals 2 damage to any target.
 Fleshify 4RR (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 Haste
-When this creature attacks, you may cast a copy of it without paying its mana cost.
+Whenever this creature attacks, you may cast a copy of it without paying its mana cost.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -3229,7 +3229,7 @@ When this creature enters, put a deathtouch counter on up to one target creature
       </prop>
       <tablerow>2</tablerow>
       <text>Flash
-This spell costs 1U less to cast if an opponent stole from you this turn.
+This spell costs 1U less to cast as long as an opponent stole from you this turn.
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -5434,7 +5434,7 @@ At the beginning of your upkeep, look at the top card of your library. If it’s
         <pt>6/7</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>As long as this creature is saddled, it has haste, trample, and “when this creature attacks, you may search your library for a creature card, put it onto battlefield tapped and attacking, then shuffle.”
+      <text>As long as this creature is saddled, it has haste, trample, and “whenever this creature attacks, you may search your library for a creature card, put it onto battlefield tapped and attacking, then shuffle.”
 Saddle 5 (Tap any number of other creatures you control with total power 5 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
 ---
 (Back): Pangaea</text>
@@ -5734,7 +5734,7 @@ At the beginning of your upkeep, put a charge counter on this enchantment. Then 
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, investigate. Then if you haven’t done so this game, conjure each ethereal Shell artifact on top of your library, then shuffle. (Get them from outside the game.)
+      <text>When this creature enters, investigate. Then if you haven’t done so this game, conjure each ethereal Shell artifact card on top of your library, then shuffle. (Get them from outside the game.)
 Whenever an artifact enters under your control for the first time each turn, put a +1/+1 counter on this creature and surveil X, where X is this creature’s toughness.
 ---
 (Back): The Sands Between</text>
@@ -5966,7 +5966,7 @@ Whenever a spell or ability you control becomes the target of a spell or ability
         <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature attacks, you may sacrifice another creature. When you do, each opponent loses 3 life unless they discard a card.
+      <text>Whenever this creature attacks, you may sacrifice another creature. When you do, each opponent loses 3 life unless they discard a card.
 At the beginning of your end step, if you descended this turn, prepare. (You descended if a permanent card was put into your graveyard from anywhere. If you did, create a Scroll token.)
 ---
 (Back): Swamp</text>
@@ -7787,7 +7787,7 @@ Evoke 1UU (You may cast this spell for its evoke cost. If you do, it’s sacrifi
         <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature attacks, steal and reveal the top card of the defending player’s library. For each colored mana symbol in that card’s mana cost, add one mana of any color in that symbol. Until end of turn, you don’t lose this mana as steps and phases end. Put the stolen card into your hand.
+      <text>Whenever this creature attacks, steal and reveal the top card of the defending player’s library. For each colored mana symbol in that card’s mana cost, add one mana of any color in that symbol. Until end of turn, you don’t lose this mana as steps and phases end. Put the stolen card into your hand.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
