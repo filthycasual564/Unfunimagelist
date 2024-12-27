@@ -5224,8 +5224,8 @@ Add WWWBBB. Until end of turn, creature cards in your graveyard have “You may 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Choose X times, where X is your wind scale. You may choose the same mode more than once;
-- When this spell resolves, it deals 2 damage to up to one target creature. Tap it.
+      <text>When this spell resolves, choose X times, where X is your wind scale. You may choose the same mode more than once;
+- This spell deals 2 damage to up to one target creature. Tap it.
 - Create a */* blue Weird creature token with “This creature’s power and toughness are each equal to the number of cards in your hand plus one.”
 - Draw a card.
 ---
@@ -5242,7 +5242,7 @@ Add WWWBBB. Until end of turn, creature cards in your graveyard have “You may 
         <type>Land</type>
       </prop>
       <tablerow>0</tablerow>
-      <text>This land enters tapped unless you have cast a noncreature spell this turn.
+      <text>This land enters tapped unless you’ve cast a noncreature spell this turn.
 {T}: Add {U} or {R}.
 ---
 (Front): Magma Typhoon</text>
