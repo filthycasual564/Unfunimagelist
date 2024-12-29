@@ -2469,7 +2469,7 @@ This creature can’t attack or block alone.
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +2/+2 and has protection from creatures and other artifacts. It must attack each combat if able.
-Whenever equipped creature deals combat damage to a player, equipped creature fights another creature of your choice and each player sacrifices a non-equipment artifact. (This ability doesn’t require targets. You must choose a creature to fight if possible.)
+Whenever equipped creature deals combat damage to a player, it fights another creature of your choice and each player sacrifices a non-equipment artifact. (This ability doesn’t require targets. You must choose a creature to fight if possible.)
 Equip {2}.
 ---
 (Back): Land of Death and Demons</text>
@@ -8247,9 +8247,9 @@ If this creature would deal combat damage to a permanent or player, it deals dou
         <pt>3/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Ward— Tap six untapped permanents you control.
-At the beginning of your upkeep, put a charge counter on this creature.
-Whenever you cast a noncreature spell, you may copy it a number of times equal to the number of charge counters on this creature. Do this only once each turn.
+      <text>Ward— Tap ten untapped permanents you control.
+When this creature enters and at the beginning of your upkeep, put a charge counter on this creature.
+Remove X charge counters from this creature: Copy target noncreature spell you control X times. You may choose new targets for the copies.
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
