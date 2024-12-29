@@ -1382,7 +1382,7 @@ Dash 1GG
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Until end of turn target creature gets “When this creature dies, return it to the battlefield under its owner’s control and hoard.”
+      <text>Until end of turn target creature gains “When this creature dies, return it to the battlefield under its owner’s control and hoard.”
 As long as you’ve stolen from an opponent this turn, this card has Fleshify 1B.  (To fleshify, put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 ---
 (Back): Swamp</text>
@@ -1774,7 +1774,7 @@ Splice onto Instant or Sorcery UU (As you cast an Instant or Sorcery spell, you 
       </prop>
       <tablerow>2</tablerow>
       <text>Defender, hexproof
-When this creature becomes the target of a spell or ability you control for the first time each turn, it becomes a legendary 4/4 Dog Warrior named Deathpup, Hero of Borkland and loses defender, hexproof, and all other creature types until end of turn.
+Whenever this creature becomes the target of a spell or ability you control for the first time each turn, it becomes a legendary 4/4 Dog Warrior named Deathpup, Hero of Borkland and loses defender, hexproof, and all other creature types until end of turn.
 ---
 (Back): Home of a Warrior</text>
       <related attach="transform">Home of a Warrior</related>
@@ -1791,7 +1791,7 @@ When this creature becomes the target of a spell or ability you control for the 
       <tablerow>0</tablerow>
       <text>This land enters tapped.
 {T}: Add {R} or {W}.
-RW, {T}: Target creature you control gets +1/+0 and has vigilance until end of turn. Activate only as a sorcery.
+RW, {T}: Target creature you control gets +1/+0 and gains vigilance until end of turn. Activate only as a sorcery.
 ---
 (Front): Hiding Guy</text>
       <related attach="transform">Hiding Guy</related>
@@ -1810,7 +1810,7 @@ RW, {T}: Target creature you control gets +1/+0 and has vigilance until end of t
       <tablerow>2</tablerow>
       <text>Flying
 Evoke 1R  (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)
-When this creature enters, target creature you control gets +2/+1 and has haste until end of turn.
+When this creature enters, target creature you control gets +2/+1 and gains haste until end of turn.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -2469,8 +2469,8 @@ This creature can’t attack or block alone.
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +2/+2 and has protection from creatures and other artifacts. It must attack each combat if able.
-When equipped creature deals combat damage to a player, equipped creature fights another creature of your choice and each player sacrifices a non-equipment artifact. (This ability doesn’t require targets. You must choose a creature to fight if possible.)
-Equip {2}. Activate only if this equipment is not attached to a creature.
+Whenever equipped creature deals combat damage to a player, equipped creature fights another creature of your choice and each player sacrifices a non-equipment artifact. (This ability doesn’t require targets. You must choose a creature to fight if possible.)
+Equip {2}.
 ---
 (Back): Land of Death and Demons</text>
       <related attach="transform">Land of Death and Demons</related>
@@ -4007,7 +4007,7 @@ Splice onto Instant or Sorcery 1R (As you cast an Instant or Sorcery spell, you 
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +1/+1.
-When you enter combat on your turn, choose an ability from among first strike, flying, vigilance, or lifelink. Put an ability counter of that type on equipped creature.
+At the beginning of combat on your turn, choose an ability from among first strike, flying, vigilance, or lifelink. Put an ability counter of that type on equipped creature.
 Equip {3}
 ---
 (Back): Plains</text>
@@ -7234,7 +7234,7 @@ When this creature would be returned to your hand from the battlefield, you may 
       <tablerow>2</tablerow>
       <text>Reach, deathtouch
 Whenever a creature dies, surveil 1.
-Creature cards in your graveyard have dredge 2.  (If you would draw a card, you may mill two cards instead. If you do, return a creature card from your graveyard to your hand. Otherwise, draw a card.)
+Creature cards in your graveyard have dredge 2.  (If you would draw a card, you may return a creature card from your graveyard to your hand and mill two cards instead. If you don’t, draw a card.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -7527,7 +7527,7 @@ Whenever you cast your second spell each turn, you may return this creature to i
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Tap and transform target creature or enchantment. (If it can’t transform, its only tapped.)
+      <text>Tap and transform target creature or enchantment. (If it can’t transform, it’s only tapped.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -7684,10 +7684,10 @@ At the beginning of your end step, hoard X times, where X is your wind scale.
         <cmc>2</cmc>
         <type>Creature - Turtle Frog Shapeshifter </type>
         <maintype>Creature</maintype>
-        <pt>3/2</pt>
+        <pt>3/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature deals combat damage to a player, you may exile it. When you do, search your library for a Frog card. You may put it onto the battlefield tapped if it is a permanent card with mana value 3 or less. Otherwise, reveal it, then put it into your hand. Shuffle.
+      <text>Whenever this creature deals combat damage to a player, you may exile it. When you do, search your library for a Frog card. You may put it onto the battlefield tapped if it’s a permanent card with mana value 3 or less. Otherwise, reveal it, then put it into your hand. Shuffle.
 Dash 2GG 
 ---
 (Back): Forest</text>
