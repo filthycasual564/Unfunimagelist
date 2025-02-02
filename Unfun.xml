@@ -355,7 +355,7 @@ When you fleshify this card, create a 1/1 white Dog creature token for each card
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>If you attacked with three or more creatures this turn, target player creates two 1/1 white Dog creature tokens. If you drew two or more cards this turn, return up to one target permanent to its owner’s hand. If you descended this turn, each opponent loses 3 life and you gain 3 life. If an opponent has been dealt damage this turn, this spell deals 3 damage to any target. If you are playing Timmy magic, target player creates a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
+      <text>If you attacked with three or more creatures this turn, target player creates two 1/1 white Dog creature tokens. If you’ve cast another spell this turn, return up to one target permanent to its owner’s hand. If a card left your graveyard this turn, each opponent loses 3 life and you gain 3 life. If an opponent has been dealt combat damage this turn, this spell deals 3 damage to any target. If you are playing Timmy magic, target player creates a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
 ---
 (Back): Magical Christmas Land</text>
       <related attach="transform">Magical Christmas Land</related>
@@ -790,14 +790,14 @@ Return target creature you control to its owner’s hand. Return up to one other
       <set rarity="common" splitterPath="/Recycling Campaign.png" >SHIT</set>
       <prop>
         <colors>BG</colors>
-        <manacost>1BG</manacost>
-        <cmc>3</cmc>
-        <type>Legendary Enchantment</type>
+        <manacost>BG</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Permanent cards in your graveyard have dredge 3. (If you would draw a card, you may mill three cards and return a permanent card from your graveyard to your hand. Otherwise, draw a card.)
-Whenever you dredge up a card, you may put it onto the battlefield tapped as a land.
+      <text>When this enchantment enters, look at the top three cards of your library. Put one of them onto the battlefield tapped as a land and the rest into your graveyard.
+Whenever one or more cards leave your graveyard, you may return this enchantment to its owner’s hand.
 ---
 (Back): Hole</text>
       <related attach="transform">Hole</related>
@@ -808,7 +808,7 @@ Whenever you dredge up a card, you may put it onto the battlefield tapped as a l
       <prop>
         <colors>BG</colors>
         <manacost></manacost>
-        <cmc>3</cmc>
+        <cmc>2</cmc>
         <type>Land</type>
       </prop>
       <tablerow>0</tablerow>
@@ -1318,8 +1318,8 @@ This creature gets +X/+X, where X is your wind scale. (Your wind scale is equal 
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, surveil 2.
-At the beginning of your end step, if you descended this turn, create a 1/1 blue Tadpole creature token. (You descended if a permanent card was put into your graveyard from anywhere.)
+      <text>Whenever this creature attacks, surveil 1.
+At the beginning of your end step, you may exile target card from your graveyard. If you do, create a 1/1 blue Tadpole creature token.
 Dash 1GG
 ---
 (Back): Forest</text>
@@ -1540,12 +1540,12 @@ Each opponent sacrifices a creature.
         <cmc>5</cmc>
         <type>Creature - Skeleton </type>
         <maintype>Creature</maintype>
-        <pt>4/2</pt>
+        <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Menace
 Evoke 1B (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)
-When this creature enters, surveil 3. Each opponent loses 3 life unless they sacrifice a nonland permanent or discard a card.
+When this creature enters, mill three cards. Return one of them to your hand unless an opponent discards a card.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -2858,16 +2858,16 @@ When this battle is defeated, draw two cards.
       <set rarity="common" splitterPath="/Trash Goblin.png" >SHIT</set>
       <prop>
         <colors>G</colors>
-        <manacost>3G</manacost>
+        <manacost>2GG</manacost>
         <cmc>4</cmc>
         <type>Creature - Goblin Dog </type>
         <maintype>Creature</maintype>
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Vigilance
-{T}: Surveil 1. Activate only as a sorcery.
-At the beginning of your end step, if you descended this turn, put a +1/+1 counter on this creature. (You descended if a permanent card was put into your graveyard from anywhere.)
+      <text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Vigilance
+{T}: Surveil 2.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -3518,7 +3518,7 @@ When this battle is defeated, exile it, then return it to the battlefield under 
       </prop>
       <tablerow>2</tablerow>
       <text>{B}, {T}, Discard a card: Draw a card. Activate only as a sorcery.
-At the beginning of your end step, if you descended this turn, hoard. (You descended if a permanent card was put into your graveyard from anywhere.)
+Whenever one or more cards leave your graveyard, hoard. (Create a Treasure artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.”)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -4587,10 +4587,10 @@ When this artifact enters, double target creature’s power and toughness until 
         <cmc>1</cmc>
         <type>Artifact Creature - Servo </type>
         <maintype>Creature</maintype>
-        <pt>0/1</pt>
+        <pt>0/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, surveil 1.  (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
+      <text>Defender
 ---
 (Back): Living Room</text>
       <related attach="transform">Living Room</related>
@@ -4984,10 +4984,10 @@ Reconfigure {7} ({7}: Attach to target creature you control; or unattach from a 
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>As this creature enters, choose a creature type from among Dog, Frog, or Dinosaur. It is the chosen type.
+      <text>As this creature enters, choose a creature type from among Dog, Frog, or Insect. It is the chosen type.
 When this creature enters, if it is a Dog, create a 1/1 white Dog creature token.
 If this creature is a Frog, it gets +1/+0 and has haste and “At the beginning of your end step, return this creature to its owner’s hand.”
-If this creature is a Dinosaur, it gets +3/-1 and has “this creature can’t block.”
+If this creature is an Insect, it has “{2}, Sacrifice this creature: Exile target card in a graveyard. Draw a card.”
 ---
 (Back): Animal Rescue Shelter</text>
       <related attach="transform">Animal Rescue Shelter</related>
@@ -5967,7 +5967,7 @@ Whenever a spell or ability you control becomes the target of a spell or ability
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever this creature attacks, you may sacrifice another creature. When you do, each opponent loses 3 life unless they discard a card.
-At the beginning of your end step, if you descended this turn, prepare. (You descended if a permanent card was put into your graveyard from anywhere. If you did, create a Scroll token.)
+{3}: Exile target card in a graveyard. If you own it, prepare. (Create a Scroll artifact token with “{2}, {T}, sacrifice this artifact: Copy target noncreature spell you control. You may choose new targets for the copy.”)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -6198,7 +6198,7 @@ Dash 2UU (You may cast this spell for its dash cost. If you do, it gains haste, 
       </prop>
       <tablerow>3</tablerow>
       <text>If it’s your turn, untap up to five lands you control. Otherwise, put a stun counter on each of five tapped lands you control.
-End the turn. (Exile the stack, including this spell. Perform end of turn cleanup. It becomes the next player’s turn.)
+End the turn. (Exile the stack, including this spell. Perform end of turn cleanup. It becomes the next player’s turn afterwards.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -6319,15 +6319,16 @@ When this creature enters, target any number of spells you don’t control. For 
       <set rarity="common" splitterPath="/Little Squeeg.png" >SHIT</set>
       <prop>
         <colors>B</colors>
-        <manacost>B</manacost>
-        <cmc>1</cmc>
+        <manacost>3BB</manacost>
+        <cmc>5</cmc>
         <type>Kindred Sorcery - Vampire Cat </type>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Each opponent loses 2 life and you gain 2 life.
-Fleshify 4BB (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
-Whenever this creature attacks, you may cast a copy of it without paying its mana cost.
+      <text>Deathtouch, lifelink
+This spell deals 2 damage to any target.
+Fleshify 3BB (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
+Instants and sorceries you control have deathtouch and lifelink.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -6338,7 +6339,7 @@ Whenever this creature attacks, you may cast a copy of it without paying its man
       <prop>
         <colors>B</colors>
         <manacost></manacost>
-        <cmc>1</cmc>
+        <cmc>5</cmc>
         <type>Basic Land - Swamp </type>
       </prop>
       <tablerow>0</tablerow>
@@ -7134,7 +7135,7 @@ BRG, {T}: Target creature you control fights another target creature you control
       <tablerow>2</tablerow>
       <text>When you cast this spell, target player gains life equal to the amount of {W} spent to cast it. Exile up to one target card in a graveyard for each {B} spent to cast it.
 This creature enters with a +1/+1 counter on it for each {G} spent to cast it.
-When this creature enters, it deals an amount of damage to up to one target creature equal to the amount of {R} spent to cast it. Target player will surveil Y, where Y is the amount of {U} spent to cast it.
+When this creature enters, it deals an amount of damage to up to one target creature equal to the amount of {R} spent to cast it. Target player may surveil Y, where Y is the amount of {U} spent to cast it.
 ---
 (Back): Color Unifier</text>
       <related attach="transform">Color Unifier</related>
@@ -7592,7 +7593,7 @@ At the beginning of your end step, hoard X times, where X is your wind scale.
         <pt>6/6</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>This spell costs {1} less to cast for each time you’ve descended this turn. (You descend whenever a permanent card is put into your graveyard from anywhere.)
+      <text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -7888,7 +7889,7 @@ Creatures you control get +1/+0 and have “When this creature dies, each oppone
       <tablerow>2</tablerow>
       <text>Reach
 Cycling {2} ({2}, Discard this card: Draw a card.)
-2GG, Exile this card from your graveyard: Create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
+When this card leaves your graveyard, you may pay 1G. If you do, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -7920,8 +7921,8 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
         <pt>3/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature deals combat damage to an opponent, hoard. Then steal up to three target cards from that player’s graveyard and put them into your graveyard. (You own them now.)
-At the beginning of your upkeep, you may give target card in your graveyard dredge 2 until end of turn. If you don’t, this creature gains menace until end of turn.
+      <text>Whenever this creature deals combat damage to an opponent, hoard. Then steal up to three target cards from that player’s graveyard and put them into your graveyard. (You own them now.)
+1B, Exile a card from your graveyard: This creature gets +1/+1 until end of turn.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
