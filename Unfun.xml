@@ -3517,7 +3517,7 @@ When this battle is defeated, exile it, then return it to the battlefield under 
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>{B}, {T}, Discard a card: Draw a card. Activate only as a sorcery.
+      <text>{B}, {T}, Discard a card: Draw a card.
 Whenever one or more cards leave your graveyard, hoard. (Create a Treasure artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.”)
 ---
 (Back): Swamp</text>
