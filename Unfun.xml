@@ -4916,7 +4916,7 @@ Draw four cards, then discard two cards. Hoard. (Create a Treasure artifact toke
       <text>{T}, Discard a card: Draw two cards. Each opponent draws a card.
 {T}, Discard two cards: Untap two other target permanents.
 {T}, Discard three cards: Cook, hoard, and prepare.
-{T}, Discard four cards: Transform this artifact and another target non-ethereal permanent.
+{T}, Discard four cards: Transform this artifact and another target nonethereal permanent.
 {3}: Untap this artifact.
 ---
 (Back): Bizzare Bazzare</text>
@@ -7528,7 +7528,7 @@ Whenever you cast your second spell each turn, you may return this creature to i
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Tap and transform target creature or enchantment. (If it can’t transform, it’s only tapped.)
+      <text>Tap and transform target nonethereal creature or nonethereal enchantment. (If it can’t transform, it’s only tapped.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
