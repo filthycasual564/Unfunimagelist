@@ -1265,11 +1265,10 @@ This creature gets +X/+X, where X is your wind scale. (Your wind scale is equal 
         <colors></colors>
         <manacost></manacost>
         <cmc>3</cmc>
-        <type>Artifact Land</type>
+        <type>Land</type>
       </prop>
       <tablerow>0</tablerow>
-      <text>This land enters tapped.
-{T}: Add one mana of any color.
+      <text>{T}, Sacrifice this land: Conjure a basic land card of your choice onto the battlefield tapped.
 ---
 (Front): Mana Rock</text>
       <related attach="transform">Mana Rock</related>
@@ -2824,11 +2823,11 @@ When this battle is defeated, draw two cards.
         <colors>R</colors>
         <manacost>R</manacost>
         <cmc>1</cmc>
-        <type>Artifact - Food </type>
+        <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{2}, {T}, Sacrifice this artifact: Target creature you control gets +2/+1 and gains haste until end of turn. You gain life equal to its power. Activate only as a sorcery.
+      <text>{T}, Sacrifice this artifact: Target creature you control gets +2/+0 and gains haste until end of turn. Activate only as a sorcery.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -4810,7 +4809,7 @@ Other creatures you control with power 5 or greater are Dragons in addition to t
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target up to two creatures you control. For each of them, that creature fights target creature you don’t control. When a creature you control survives fighting this way, return it to its owner’s hand. (A creature survives if it isn’t dealt lethal damage.)
+      <text>For each of up to two target creatures you control, that creature fights target creature an opponent controls. When a creature you control survives fighting this way, return it to its owner’s hand.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -5186,7 +5185,7 @@ Splice onto Instant or Sorcery {R}. (As you cast an Instant or Sorcery spell, yo
       </prop>
       <tablerow>3</tablerow>
       <text>This spell costs {X} less to cast, where X is the number of creatures you sacrificed this turn.
-Add WWWBBB. Until end of turn, creature cards in your graveyard have “You may cast this card from your graveyard. If you do, it enters with a finality counter on it.”
+Add WWWBBB. Until end of turn, you may cast creature spells from your graveyard. Creatures you cast this way enter with a finality counter on them.
 ---
 (Back): Scientology Temple</text>
       <related attach="transform">Scientology Temple</related>
@@ -5218,7 +5217,7 @@ Add WWWBBB. Until end of turn, creature cards in your graveyard have “You may 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>When this spell resolves, it deals X damage to any nonplayer target, where X is your wind scale. If X is two or greater, tap it. If X is three or greater, draw two cards. If X is four or greater, create a */* blue Weird creature token with “This creature’s power and toughness are each equal to the number of cards in your hand plus one.”
+      <text>When this spell resolves, it deals X damage to any nonplayer target, where X is your wind scale. If X is two or greater, tap it and put a stun counter on it. If X is three or greater, draw two cards. If X is four or greater, create a */* blue Weird creature token with “This creature’s power and toughness are each equal to the number of cards in your hand plus one.”
 ---
 (Back): Magma Lake</text>
       <related attach="transform">Magma Lake</related>
@@ -5358,7 +5357,7 @@ Creatures you control get +1/+1.
       <tablerow>2</tablerow>
       <text>Indestructible
 As long as you control fewer than five other Dogs, this permanent isn’t a creature.
-At the beginning of your upkeep, look at the top card of your library. If it’s a Dog card, you may reveal it and put it into your hand. If you don’t reveal that card this way, put it back on top of your library or into your graveyard and create a 1/1 white Dog creature token.
+At the beginning of your upkeep, reveal the top card of your library. If it’s a Dog, put it into your hand. Otherwise, create a 1/1 white Dog creature token, then you may put that card into your graveyard.
 ---
 (Back): Dog Festival</text>
       <related attach="transform">Dog Festival</related>
@@ -7105,7 +7104,7 @@ When this battle is defeated, the winner cooks thrice, hoards thrice, and gets a
       <tablerow>0</tablerow>
       <text>This land enters tapped.
 {T}: Add {B}, {R}, or {G}.
-BRG, {T}: Target creature you control fights another target creature you control. When one of those creatures survives fighting this way and the other doesn’t, put two +1/+1 counters on the surviving creature and remove all damage from it. Activate only as a sorcery.
+BRG, {T}: Target creature you control fights another target creature you control. When one of those creatures survives fighting this way and the other doesn’t, put a +1/+1 counter on the surviving creature and remove all damage from it, then draw a card. Activate only as a sorcery.
 ---
 (Front): Where We Droppin</text>
       <related attach="transform">Where We Droppin</related>
@@ -7223,7 +7222,6 @@ When this creature would be returned to your hand from the battlefield, you may 
       </prop>
       <tablerow>2</tablerow>
       <text>Reach, deathtouch
-Whenever a creature dies, surveil 1.
 Creature cards in your graveyard have dredge 2.  (If you would draw a card, you may return a creature card from your graveyard to your hand and mill two cards instead. If you don’t, draw a card.)
 ---
 (Back): Forest</text>
