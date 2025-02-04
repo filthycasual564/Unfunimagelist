@@ -151,15 +151,14 @@ At the beginning of combat on your turn, if you are playing Timmy magic, this cr
       <set rarity="common" splitterPath="/Dog Champion.png" >SHIT</set>
       <prop>
         <colors>W</colors>
-        <manacost>W</manacost>
-        <cmc>1</cmc>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
         <type>Creature - Dog Warrior </type>
         <maintype>Creature</maintype>
-        <pt>1/1</pt>
+        <pt>1/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Double strike
-This creature can’t block.
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -170,7 +169,7 @@ This creature can’t block.
       <prop>
         <colors>W</colors>
         <manacost></manacost>
-        <cmc>1</cmc>
+        <cmc>2</cmc>
         <type>Basic Land - Plains </type>
       </prop>
       <tablerow>0</tablerow>
@@ -355,7 +354,7 @@ When you fleshify this card, create a 1/1 white Dog creature token for each card
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>If you attacked with three or more creatures this turn, target player creates two 1/1 white Dog creature tokens. If you’ve cast another spell this turn, return up to one target permanent to its owner’s hand. If a card left your graveyard this turn, each opponent loses 3 life and you gain 3 life. If an opponent has been dealt combat damage this turn, this spell deals 3 damage to any target. If you are playing Timmy magic, target player creates a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
+      <text>If you attacked with three or more creatures this turn, target player creates two 1/1 white Dog creature tokens. If you’ve cast another spell this turn, return up to one target permanent to its owner’s hand. If a card left your graveyard this turn, each opponent loses 3 life and you gain 3 life. If an opponent has been dealt combat damage this turn, this spell deals 3 damage to any target. If you are playing Timmy magic, target player creates a 3/3 green Dinosaur creature token with trample.
 ---
 (Back): Magical Christmas Land</text>
       <related attach="transform">Magical Christmas Land</related>
@@ -595,7 +594,7 @@ When this creature dies, return it to the battlefield as a land.
       </prop>
       <tablerow>2</tablerow>
       <text>Haste
-Whenever this creature attacks, if you are playing Timmy magic, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.” (You are playing Timmy magic if you control a creature with power 5 or greater.)
+Whenever this creature attacks, if you are playing Timmy magic, create a 3/3 green Dinosaur creature token with trample that’s tapped and attacking. (You are playing Timmy magic if you control a creature with power 5 or greater.)
 ---
 (Back): Stompy Ground</text>
       <related attach="transform">Stompy Ground</related>
@@ -622,13 +621,13 @@ XRGG, {T}:  Until end of turn, target creature you control gets +X/+0, gains tra
       <set rarity="common" splitterPath="/Copying Machine.png" >SHIT</set>
       <prop>
         <colors>UR</colors>
-        <manacost>1UR</manacost>
-        <cmc>3</cmc>
+        <manacost>UR</manacost>
+        <cmc>2</cmc>
         <type>Kindred Artifact - Servo </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{2}, {T}: Copy target noncreature spell you control. You may choose new targets for the copy. This ability costs {2} less to activate if it targets a spell with mana value 2 or less.
+      <text>{2}, {T}: Copy target noncreature spell you control. You may choose new targets for the copy.
 Whenever you copy a noncreature spell, create a tapped 1/1 colorless Servo artifact creature token.
 ---
 (Back): School Library</text>
@@ -640,7 +639,7 @@ Whenever you copy a noncreature spell, create a tapped 1/1 colorless Servo artif
       <prop>
         <colors>UR</colors>
         <manacost></manacost>
-        <cmc>3</cmc>
+        <cmc>2</cmc>
         <type>Land</type>
       </prop>
       <tablerow>0</tablerow>
@@ -1059,8 +1058,8 @@ When this creature enters, draw a card.
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Crew 2
-Creatures that crewed this vehicle this turn attack as it does. (Attacks are declared simultaneously. They must attack the same player, planeswalker, or battle. The creatures are forced to attack through effects that would prevent it, such as defender or summoning sickness. Abilities of those creatures that trigger upon declaring attack are triggered.)
+      <text>Haste, menace, trample
+Crew 2
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -1095,21 +1094,21 @@ Creatures that crewed this vehicle this turn attack as it does. (Attacks are dec
       <text>Defender
 {1}: Add one mana of any color. Activate only once each turn.
 ---
-(Back): Don&apos;t play this</text>
-      <related attach="transform">Don&apos;t play this</related>
+(Back): Pumpkin Patch</text>
+      <related attach="transform">Pumpkin Patch</related>
     </card>
     <card>
-      <name>Don&apos;t play this</name>
-      <set rarity="common" splitterPath="/Don't play this.png" >SHIT</set>
+      <name>Pumpkin Patch</name>
+      <set rarity="common" splitterPath="/Pumpkin Patch.png" >SHIT</set>
       <prop>
         <colors></colors>
         <manacost></manacost>
         <cmc>2</cmc>
-        <type>Artifact Land</type>
+        <type>Artifact Land - Food </type>
       </prop>
       <tablerow>0</tablerow>
-      <text>{1}, {T}: Add one mana of any color.
-{T}, Sacrifice this land: Return target land you control to its owner’s hand.
+      <text>{T}: Add {C}
+{2}, {T}, Sacrifice this land: You gain 3 life.
 ---
 (Front): That One Filler Card</text>
       <related attach="transform">That One Filler Card</related>
@@ -1318,8 +1317,7 @@ This creature gets +X/+X, where X is your wind scale. (Your wind scale is equal 
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature attacks, surveil 1.
-At the beginning of your end step, you may exile target card from your graveyard. If you do, create a 1/1 blue Tadpole creature token.
+      <text>Whenever this creature attacks, you may exile target card from your graveyard. If you do, create a 1/1 blue Tadpole creature token.
 Dash 1GG
 ---
 (Back): Forest</text>
@@ -1383,7 +1381,7 @@ Dash 1GG
       </prop>
       <tablerow>3</tablerow>
       <text>Until end of turn target creature gains “When this creature dies, return it to the battlefield under its owner’s control and hoard.”
-As long as you’ve stolen from an opponent this turn, this card has Fleshify 1B.  (To fleshify, put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
+As long as you’ve stolen this turn, this card has Fleshify 1B. (To fleshify. put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -1671,12 +1669,12 @@ Flashback XBBB  (You may cast this card from your graveyard for its flashback co
         <colors>R</colors>
         <manacost>1R</manacost>
         <cmc>2</cmc>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
       <text>Choose one;
--Target creature you control gets +3/+2 and gains trample until end of turn.
+-Target creature you control gets +3/+1 and gains trample until end of turn.
 -The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
 ---
 (Back): Mountain</text>
@@ -1708,8 +1706,9 @@ Flashback XBBB  (You may cast this card from your graveyard for its flashback co
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
-Fleshify 6G (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
+      <text>Create a 3/3 green Dinosaur creature token with trample.
+As long as you are playing Timmy magic, this card has Fleshify 1GG.  (To fleshiyfy, put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
+Trample
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -1774,7 +1773,7 @@ Splice onto Instant or Sorcery UU (As you cast an Instant or Sorcery spell, you 
       </prop>
       <tablerow>2</tablerow>
       <text>Defender, hexproof
-Whenever this creature becomes the target of a spell or ability you control for the first time each turn, it becomes a legendary 4/4 Dog Warrior named Deathpup, Hero of Borkland and loses defender, hexproof, and all other creature types until end of turn.
+Whenever this creature becomes the target of a spell or ability you control for the first time each turn, it becomes a legendary 4/4 Dog Warrior named Deathpup, Hero of Borkland and loses all abilities and other creature types until end of turn.
 ---
 (Back): Home of a Warrior</text>
       <related attach="transform">Home of a Warrior</related>
@@ -2003,14 +2002,14 @@ Whenever this creature attacks, you may cast a copy of it without paying its man
       <set rarity="common" splitterPath="/Sniff Out.png" >SHIT</set>
       <prop>
         <colors>W</colors>
-        <manacost>1W</manacost>
-        <cmc>2</cmc>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
         <type>Kindred Sorcery - Dog </type>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Look at target opponent’s hand. You may exile a card from it. For as long as that card remains exiled, its owner may cast it. A spell cast this way costs {2} more to cast. If you don’t exile a card with mana value 3 or greater this way, you may put this spell onto the battlefield as a creature with a finality counter on it.
-Fleshify {W} (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
+      <text>Look at each opponent’s hand. You may choose a card name. Cards with the chosen name cost {2} more to cast until the beginning of your next turn.
+Fleshify 1W (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -2021,7 +2020,7 @@ Fleshify {W} (Put this card onto the battlefield from your graveyard as a creatu
       <prop>
         <colors>W</colors>
         <manacost></manacost>
-        <cmc>2</cmc>
+        <cmc>1</cmc>
         <type>Basic Land - Plains </type>
       </prop>
       <tablerow>0</tablerow>
@@ -2305,7 +2304,7 @@ Dash 3G (You may cast this spell for its dash cost. If you do, it gains haste, a
         <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature becomes the target of a spell or ability you control, it gains provoke until end of turn. This ability triggers only once each turn. (When a creature with provoke attacks, you may have target creature defending player controls untap and block it if able.)
+      <text>Whenever this creature becomes the target of a spell or ability you control for the first time each turn, untap up to one target creature an opponent controls. That creature must block this creature this turn if able.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -2338,8 +2337,7 @@ Dash 3G (You may cast this spell for its dash cost. If you do, it gains haste, a
       </prop>
       <tablerow>2</tablerow>
       <text>Trample
-As long as you are playing Timmy magic, this spell costs {2} more to cast. (You are playing Timmy magic if you control a creature with power 5 or greater.)
-As long as you are playing Timmy magic, this creature enters with two +1/+1 counters on it.
+This creature enters with a +1/+1 counter on it if you are playing Timmy magic. (You are playing Timmy magic if you control a creature with power 5 or greater.)
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -2665,11 +2663,10 @@ Enchanted creature gets +2/+2. It must attack each combat if able.
         <cmc>3</cmc>
         <type>Legendary Creature - Human Citizen </type>
         <maintype>Creature</maintype>
-        <pt>1/1</pt>
+        <pt>0/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Ward {X}, where X is five minus the number of other creatures you control.
-At the beginning of your end step, if you control fewer than five other creatures, create a 1/1 white Dog creature token. Otherwise, put a +1/+1 counter on each other creature you control.
+      <text>At the beginning of your end step, if you control fewer than five other creatures, create a 1/1 white Dog creature token. Otherwise, put a +1/+1 counter on each other creature you control.
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -2831,9 +2828,7 @@ When this battle is defeated, draw two cards.
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>This artifact enters with three charge counters on it.
-{T}, Remove a charge counter from this artifact: Target creature you control gets +1/+0 and has haste until end of turn. Activate only as a sorcery.
-{2}, {T}, Sacrifice this artifact: You gain 3 life.
+      <text>{2}, {T}, Sacrifice this artifact: Target creature you control gets +2/+1 and gains haste until end of turn. You gain life equal to its power. Activate only as a sorcery.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -3261,7 +3256,7 @@ This spell costs 1U less to cast as long as an opponent stole from you this turn
       </prop>
       <tablerow>3</tablerow>
       <text>Draw a card. Exile this spell with two time counters on it.
-Suspend 1—UUU (Rather than cast this card from your hand, you may pay UUU and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Suspend 1—UUU (UUU: Exile this card from your hand with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast this card without paying its mana cost.)
 You may suspend this card at any time you could cast an instant.
 ---
 (Back): Island</text>
@@ -3454,7 +3449,7 @@ When this battle is defeated, exile it, then return it to the battlefield under 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature you control fights target creature an opponent controls. Those two creatures can’t both become the targets of another spell named Fight Wipe this turn. Cast this spell without paying its mana cost.  (This isn’t optional. Choose new targets as part of this spell’s resolution if possible. It can’t target exactly the same creatures more than once in a turn.)
+      <text>Target creature you control fights target creature an opponent controls. Those two creatures can’t both become the targets of another spell named Fight Wipe this turn. Cast this spell without paying its mana cost. (You must choose new targets to fight if possible. If you can’t, put this spell into your graveyard.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -3485,7 +3480,7 @@ When this battle is defeated, exile it, then return it to the battlefield under 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact, enchantment, or battle. If you controlled it, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
+      <text>Destroy target artifact, enchantment, or battle. If you controlled it, create a 3/3 green Dinosaur creature token with trample.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -3645,7 +3640,7 @@ Prepare. (Create a Scroll artifact token with “{2}, {T}, sacrifice this artifa
       <tablerow>3</tablerow>
       <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature’s color.)
 Create two 1/1 white Dog creature tokens.
-Flashback 2WWWW (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Flashback 2WWWW
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -3710,7 +3705,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
       <tablerow>3</tablerow>
       <text>Choose one;
 - Destroy target artifact.
-- Target artifact creature gets +3/+0 and gains haste and trample until end of turn. This spell deals 1 damage to it.
+- Target artifact creature gets +2/+2 and gains haste and trample until end of turn. This spell deals 1 damage to it.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -4232,9 +4227,9 @@ Enchanted permanent is a green Wurm creature with base power and toughness 4/3 i
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+0 and has first strike, trample, and haste.
+      <text>Equipped creature has haste and trample.
 Whenever equipped creature deals combat damage to an opponent, you may sacrifice it. When you do, untap each creature you control. After this phase, there is an additional combat phase. Attach this equipment to up to one target creature you control.
-Equip 1R
+Equip {R}
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -4493,8 +4488,7 @@ Creatures get -3/-0.
       </prop>
       <tablerow>2</tablerow>
       <text>Trample, ward— pay life equal to this creature’s power.
-Whenever an opponent steals from you, this creature deals damage equal to its power to that player.
-Whenever this creature deals combat damage to a player, it deals that much damage to up to one target battle or planeswalker.
+Whenever an opponent steals from you, this creature deals damage equal to its power to that player, each planeswalker they control, and each battle they protect.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -5224,10 +5218,7 @@ Add WWWBBB. Until end of turn, creature cards in your graveyard have “You may 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>When this spell resolves, choose X times, where X is your wind scale. You may choose the same mode more than once;
-- This spell deals 2 damage to up to one target creature. Tap it.
-- Create a */* blue Weird creature token with “This creature’s power and toughness are each equal to the number of cards in your hand plus one.”
-- Draw a card.
+      <text>When this spell resolves, it deals X damage to any nonplayer target, where X is your wind scale. If X is two or greater, tap it. If X is three or greater, draw two cards. If X is four or greater, create a */* blue Weird creature token with “This creature’s power and toughness are each equal to the number of cards in your hand plus one.”
 ---
 (Back): Magma Lake</text>
       <related attach="transform">Magma Lake</related>
@@ -5298,7 +5289,7 @@ You may activate the loyalty abilities of this planeswalker at any time you coul
       <tablerow>2</tablerow>
       <text>Flying
 Evoke 1BR (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)
-Whenever this creature enters or attacks, it deals 2 damage to each opponent, each planeswalker you don’t control, and each battle you don’t protect. You may discard your hand. If you do, draw two cards.
+Whenever this creature enters or attacks, it deals 2 damage to each opponent. You may discard your hand. If you do, draw two cards.
 ---
 (Back): Demonfire Crypt</text>
       <related attach="transform">Demonfire Crypt</related>
@@ -5500,7 +5491,7 @@ At the beginning of your end step, if a creature died this turn, put a +1/+1 cou
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Conjure a basic land card of your choice into your hand. (Reveal it from outside the game, then put it into your hand.)
+      <text>Conjure a basic land card of your choice into your hand.
 Fleshify 4GG (Put this card onto the battlefield from your graveyard as a creature with a finality counter on it. Fleshify only as a sorcery.)
 Reach
 This creature’s power and toughness are each equal to the number of lands you control.
@@ -5659,18 +5650,17 @@ When this artifact is put into a graveyard from the battlefield, draw a card.
       <set rarity="common" splitterPath="/Serious Kiwi.png" >SHIT</set>
       <prop>
         <colors>G</colors>
-        <manacost>2GG</manacost>
-        <cmc>4</cmc>
+        <manacost>GG</manacost>
+        <cmc>2</cmc>
         <type>Creature - Bird Beast </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Flash
-This spell costs {1} less to cast for each player that controls a spell.
 When this creature enters, choose one;
 - Resolve each creature spell you control.
-- This creature and up to one other target creature each gain indestructible and hexproof until end of turn.
+- This creature and up to one other target creature each gain hexproof and indestructible until end of turn.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -5681,7 +5671,7 @@ When this creature enters, choose one;
       <prop>
         <colors>G</colors>
         <manacost></manacost>
-        <cmc>4</cmc>
+        <cmc>2</cmc>
         <type>Basic Land - Forest </type>
       </prop>
       <tablerow>0</tablerow>
@@ -5802,7 +5792,7 @@ Sacrifice a permanent:¯¯\_(ツ)_/¯
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target a spell you don’t control and up to one creature, battle, or planeswalker controlled or protected by that spell’s controller. That player may exile the targeted spell. If they don’t, this spell deals 4 damage to them and the targeted permanent.
+      <text>Target spell’s controller may have this spell deal 4 damage to them and target permanent they control. If they don’t, exile that target spell.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -5823,8 +5813,8 @@ Sacrifice a permanent:¯¯\_(ツ)_/¯
       <related attach="transform">Gunpoint Diplomacy</related>
     </card>
     <card>
-      <name>Hateful Bear</name>
-      <set rarity="common" splitterPath="/Hateful Bear.png" >SHIT</set>
+      <name>Scavenging Bear</name>
+      <set rarity="common" splitterPath="/Scavenging Bear.png" >SHIT</set>
       <prop>
         <colors>G</colors>
         <manacost>1G</manacost>
@@ -5834,8 +5824,9 @@ Sacrifice a permanent:¯¯\_(ツ)_/¯
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>As this creature enters, choose a card type from among instant, sorcery, artifact, enchantment, or planeswalker.
-Whenever a player casts or copies a spell of the chosen type or activates an ability with a source of the chosen type, this creature deals damage equal to its power to that spell or ability’s controller.
+      <text>{2}, {T}: Mill two cards.
+{1}, {T}, Exile a card from your graveyard: Cook. (Create a Food token.)
+{T}, Sacrifice an artifact: Put a +1/+1 counter on target creature you control.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -5852,8 +5843,8 @@ Whenever a player casts or copies a spell of the chosen type or activates an abi
       <tablerow>0</tablerow>
       <text>{T}: Add {G}
 ---
-(Front): Hateful Bear</text>
-      <related attach="transform">Hateful Bear</related>
+(Front): Scavenging Bear</text>
+      <related attach="transform">Scavenging Bear</related>
     </card>
     <card>
       <name>Loud Annoying Frog</name>
@@ -6557,7 +6548,7 @@ When this enchantment is put into a graveyard from the battlefield, draw a card.
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Return target creature card that was put into your graveyard from the battlefield this turn to the battlefield. It gains haste until end of turn. If it isn’t your turn, tap it. At the beginning of your next end step, sacrifice it.
+      <text>Return target creature card that was put into your graveyard from the battlefield this turn to the battlefield. It gains haste and “this creature can’t block” until end of turn. At the beginning of your next end step, sacrifice it.
 Draw a card.
 ---
 (Back): Mountain</text>
@@ -6688,7 +6679,7 @@ This creature’s power and toughness are each equal to two raised to the power 
         <colors></colors>
         <manacost>1</manacost>
         <cmc>1</cmc>
-        <type>Kindred Instant - Advisor </type>
+        <type>Instant - Advisor </type>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
@@ -6724,11 +6715,11 @@ Flashback {1} (You may cast this card from your graveyard for its flashback cost
         <cmc>5</cmc>
         <type>Creature - Plant Orb </type>
         <maintype>Creature</maintype>
-        <pt>2/5</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Reach
-When this creature enters, search your library for a creature card with mana value 2 or less, reveal it, put it into your hand, then shuffle. If an opponent controls more creatures than you, you may put that card onto the battlefield instead.
+When this creature enters, search your library for a creature card with mana value 3 or less, reveal it, put it into your hand, then shuffle. If an opponent controls more creatures than you, you may put that card onto the battlefield instead.
 ---
 (Back): Strange Forest</text>
       <related attach="transform">Strange Forest</related>
@@ -6953,20 +6944,18 @@ Equip {3}
       <related attach="transform">Larger Than Average Sword</related>
     </card>
     <card>
-      <name>Grey Goo</name>
-      <set rarity="common" splitterPath="/Grey Goo.png" >SHIT</set>
+      <name>Hammer and Anvil</name>
+      <set rarity="common" splitterPath="/Hammer and Anvil.png" >SHIT</set>
       <prop>
         <colors>W</colors>
         <manacost>3W</manacost>
         <cmc>4</cmc>
-        <type>Artifact Creature - Soldier Equipment  </type>
-        <maintype>Creature</maintype>
-        <pt>3/3</pt>
+        <type>Kindred Artifact - Artifice Equipment  </type>
+        <maintype>Artifact</maintype>
       </prop>
-      <tablerow>2</tablerow>
-      <text>Equipped creature gets +1/+0 and is an artifact in addition to its other types.
-Whenever equipped creature attacks, conjure a duplicate of this equipment into your hand.
-Reconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn’t a creature.)
+      <tablerow>1</tablerow>
+      <text>Equipped creature has “{1}, {T}: Conjure a card named Bonesplitter into your hand.”
+Equip {1}
 ---
 (Back): Plains</text>
       <related attach="transform">Plains</related>
@@ -6983,8 +6972,8 @@ Reconfigure {3} ({3}: Attach to target creature you control; or unattach from a 
       <tablerow>0</tablerow>
       <text>{T}: Add {W}
 ---
-(Front): Grey Goo</text>
-      <related attach="transform">Grey Goo</related>
+(Front): Hammer and Anvil</text>
+      <related attach="transform">Hammer and Anvil</related>
     </card>
     <card>
       <name>Fortuno, the House</name>
@@ -7267,7 +7256,7 @@ Creature cards in your graveyard have dredge 2.  (If you would draw a card, you 
         <pt>5/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, exile any number of target instant or sorcery cards with total mana value 3 or less from your graveyard. Copy each card exiled this way. You may cast the copies without paying their mana costs.
+      <text>When this creature enters, exile up to one target instant or sorcery card with mana value 3 or less from your graveyard. Copy that card. You may cast the copy without paying its mana cost.
 Evoke 1RR (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters.)
 ---
 (Back): Mountain</text>
@@ -7528,7 +7517,7 @@ Whenever you cast your second spell each turn, you may return this creature to i
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Tap and transform target nonethereal creature or nonethereal enchantment. (If it can’t transform, it’s only tapped.)
+      <text>Tap and transform target nonethereal creature or nonethereal enchantment. (If it can’t transform, it’s only tapped. Ethereal cards can’t be put into your deck during deckbuilding but can be conjured.)
 ---
 (Back): Island</text>
       <related attach="transform">Island</related>
@@ -7560,8 +7549,8 @@ Whenever you cast your second spell each turn, you may return this creature to i
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>At the beginning of the cleanup step of the player to your right, exile the top X cards of your library, where X is your wind scale. Until your next end step, you may play those cards. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
-At the beginning of your end step, hoard X times, where X is your wind scale.
+      <text>At the beginning of the cleanup step of the player to your right, hoard X times, where X is your wind scale. (Your wind scale is equal to the number of spells you’ve cast or copied this turn, including this one.)
+At the beginning of your end step, exile up to X cards from the top of your library, where X is your wind scale. You may cast the exiled cards until the beginning of your next turn.
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -7688,8 +7677,9 @@ At the beginning of your end step, hoard X times, where X is your wind scale.
         <pt>3/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature deals combat damage to a player, you may exile it. When you do, search your library for a Frog card. You may put it onto the battlefield tapped if it’s a permanent card with mana value 3 or less. Otherwise, reveal it, then put it into your hand. Shuffle.
-Dash 2GG 
+      <text>As this creature enters, choose a creature type. It is the chosen type. (It looses other creature types.)
+This creature can’t be blocked by creatures that share a creature type with it.
+Dash 1G 
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -7847,15 +7837,15 @@ Reconfigure {1} ({1}: Attach to target creature you control; or unattach from a 
       <set rarity="common" splitterPath="/Spiteful Gremlin.png" >SHIT</set>
       <prop>
         <colors>B</colors>
-        <manacost>5B</manacost>
-        <cmc>6</cmc>
+        <manacost>4B</manacost>
+        <cmc>5</cmc>
         <type>Creature - Dog Horror </type>
         <maintype>Creature</maintype>
-        <pt>3/5</pt>
+        <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Evoke 2B (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters the battlefield.)
-Creatures you control get +1/+0 and have “When this creature dies, each opponent loses 1 life and you gain 1 life.” If this creature leaves the battlefield, this effect continues until end of turn.
+      <text>Evoke {B} (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters the battlefield.)
+Whenever this creature or another creature you control dies, each opponent loses 2 life and you gain 2 life. This ability triggers only once each turn.
 ---
 (Back): Swamp</text>
       <related attach="transform">Swamp</related>
@@ -7866,7 +7856,7 @@ Creatures you control get +1/+0 and have “When this creature dies, each oppone
       <prop>
         <colors>B</colors>
         <manacost></manacost>
-        <cmc>6</cmc>
+        <cmc>5</cmc>
         <type>Basic Land - Swamp </type>
       </prop>
       <tablerow>0</tablerow>
@@ -7889,7 +7879,7 @@ Creatures you control get +1/+0 and have “When this creature dies, each oppone
       <tablerow>2</tablerow>
       <text>Reach
 Cycling {2} ({2}, Discard this card: Draw a card.)
-When this card leaves your graveyard, you may pay 1G. If you do, create a 0/3 green Dinosaur creature token with trample and “at the beginning of combat on your turn, this creature gets +X/+0 until end of turn, where X is the greatest power among creatures you control.”
+When this card leaves your graveyard, you may pay 1G. If you do, create a tapped 3/3 green Dinosaur creature token with trample.
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
@@ -8087,7 +8077,7 @@ This creature has haste and vigilance as long as you control no other creatures.
       <tablerow>2</tablerow>
       <text>Flash
 This creature can’t block.
-As this creature enters, exile a creature card from your graveyard that was put there from the battlefield this turn. This creature enters as a copy of that card, except it is a 3/2 red Spirit in addition to its other types and has “This creature can’t block.”
+When this creature enters, you may exile target creature card in your graveyard that was put there from the battlefield this turn. If you do, this creature becomes a copy of that card, except its a 3/2 red Spirit in addition to its other types and colors and has “this creature can’t block.”
 ---
 (Back): Mountain</text>
       <related attach="transform">Mountain</related>
@@ -8150,7 +8140,9 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Mill three cards, then choose a card put into your graveyard this way. You may put it onto the battlefield tapped as a land. If you don’t, cook, then you may put the chosen card on top of your library if it’s a permanent card.  (To cook, create a Food artifact token with “{2}, {T}, Sacrifice this artifact: You gain 3 life.”)
+      <text>Mill two cards. When you do, choose one:
+- Put target card in your graveyard onto the battlefield tapped as a land.
+- Cook, hoard, and prepare. (Create a food token, a treasure token, and a scroll token.)
 ---
 (Back): Forest</text>
       <related attach="transform">Forest</related>
